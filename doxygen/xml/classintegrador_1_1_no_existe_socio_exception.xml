@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classintegrador_1_1_no_existe_socio_exception" kind="class" language="Java" prot="public">
+    <compoundname>integrador::NoExisteSocioException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classintegrador_1_1_no_existe_socio_exception_1abd2f1f81ed82bd58538fa2fed966c3fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>integrador.NoExisteSocioException.NoExisteSocioException</definition>
+        <argsstring>()</argsstring>
+        <name>NoExisteSocioException</name>
+        <qualifiedname>integrador.NoExisteSocioException.NoExisteSocioException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NoExisteSocioException.java" line="13" column="14" bodyfile="integrador/src/main/java/integrador/NoExisteSocioException.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>integrador.NoExisteSocioException</label>
+        <link refid="classintegrador_1_1_no_existe_socio_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>integrador.NoExisteSocioException</label>
+        <link refid="classintegrador_1_1_no_existe_socio_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="integrador/src/main/java/integrador/NoExisteSocioException.java" line="11" column="7" bodyfile="integrador/src/main/java/integrador/NoExisteSocioException.java" bodystart="11" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classintegrador_1_1_no_existe_socio_exception_1abd2f1f81ed82bd58538fa2fed966c3fa" prot="public" virt="non-virtual"><scope>integrador::NoExisteSocioException</scope><name>NoExisteSocioException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classintegrador_1_1_edad_insuficiente_exception" kind="class" language="Java" prot="public">
+    <compoundname>integrador::EdadInsuficienteException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classintegrador_1_1_edad_insuficiente_exception_1a22b5613186d0ad51800a6080296694b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>integrador.EdadInsuficienteException.EdadInsuficienteException</definition>
+        <argsstring>()</argsstring>
+        <name>EdadInsuficienteException</name>
+        <qualifiedname>integrador.EdadInsuficienteException.EdadInsuficienteException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/EdadInsuficienteException.java" line="13" column="12" bodyfile="integrador/src/main/java/integrador/EdadInsuficienteException.java" bodystart="13" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>integrador.EdadInsuficienteException</label>
+        <link refid="classintegrador_1_1_edad_insuficiente_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>integrador.EdadInsuficienteException</label>
+        <link refid="classintegrador_1_1_edad_insuficiente_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="integrador/src/main/java/integrador/EdadInsuficienteException.java" line="11" column="7" bodyfile="integrador/src/main/java/integrador/EdadInsuficienteException.java" bodystart="11" bodyend="16"/>
+    <listofallmembers>
+      <member refid="classintegrador_1_1_edad_insuficiente_exception_1a22b5613186d0ad51800a6080296694b0" prot="public" virt="non-virtual"><scope>integrador::EdadInsuficienteException</scope><name>EdadInsuficienteException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classintegrador_1_1_actividad" kind="class" language="Java" prot="public">
+    <compoundname>integrador::Actividad</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classintegrador_1_1_actividad_1a42a19341d2d20a191445776508ba1a78" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String integrador.Actividad.nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <qualifiedname>integrador.Actividad.nombre</qualifiedname>
+        <briefdescription>
+<para>Nombre de la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="34" column="8" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_actividad_1aceff3d24396133a9bc65609713ac9f8f" prot="package" static="no" mutable="no">
+        <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+        <definition>Persona integrador.Actividad.encargado</definition>
+        <argsstring></argsstring>
+        <name>encargado</name>
+        <qualifiedname>integrador.Actividad.encargado</qualifiedname>
+        <briefdescription>
+<para>Persona encargada de la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="38" column="9" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_actividad_1a5039d3a6b38a5af377199ea892aba979" prot="package" static="no" mutable="no">
+        <type>ArrayList&lt; <ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref> &gt;</type>
+        <definition>ArrayList&lt;Socio&gt; integrador.Actividad.inscriptos</definition>
+        <argsstring></argsstring>
+        <name>inscriptos</name>
+        <qualifiedname>integrador.Actividad.inscriptos</qualifiedname>
+        <briefdescription>
+<para>Lista de socios inscritos en la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="42" column="11" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_actividad_1abd8f2b940b06da6677ed711a47ae8c1f" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int integrador.Actividad.edadMinima</definition>
+        <argsstring></argsstring>
+        <name>edadMinima</name>
+        <qualifiedname>integrador.Actividad.edadMinima</qualifiedname>
+        <briefdescription>
+<para>Edad mínima requerida para participar en la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="46" column="5" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_actividad_1a16ce293fc11572faa07036b84064adf5" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int integrador.Actividad.cupo</definition>
+        <argsstring></argsstring>
+        <name>cupo</name>
+        <qualifiedname>integrador.Actividad.cupo</qualifiedname>
+        <briefdescription>
+<para>Cupo máximo de participantes para la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="51" column="5" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1ac1d1782666cd249d416246f27bad2fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>integrador.Actividad.Actividad</definition>
+        <argsstring>(String nombre, Persona encargado, int cupo, int edadMInima)</argsstring>
+        <name>Actividad</name>
+        <qualifiedname>integrador.Actividad.Actividad</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+          <declname>encargado</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cupo</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>edadMInima</declname>
+        </param>
+        <briefdescription>
+<para>Construye nueva actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nombre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre de la actividad. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>encargado</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Persona encargada de la actividad. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cupo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Cupo máximo de participantes para la actividad. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>edadMInima</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Edad mínima requerida para participar en la actividad. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="22" column="8" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="22" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a97b56c489be21841aaac4cbd0d3f6afb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int integrador.Actividad.getEdadMinima</definition>
+        <argsstring>()</argsstring>
+        <name>getEdadMinima</name>
+        <qualifiedname>integrador.Actividad.getEdadMinima</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="54" column="12" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a9780e160e6f8f46e4f345332471f121b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Actividad.setEdadMinima</definition>
+        <argsstring>(int edadMinima)</argsstring>
+        <name>setEdadMinima</name>
+        <qualifiedname>integrador.Actividad.setEdadMinima</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>edadMinima</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="58" column="13" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1aec9d7c35577f5ed8fe64009961f52ee2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int integrador.Actividad.getCupo</definition>
+        <argsstring>()</argsstring>
+        <name>getCupo</name>
+        <qualifiedname>integrador.Actividad.getCupo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="62" column="12" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1aedf0bbe03975b865b70a1d8290b76641" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Actividad.setCupo</definition>
+        <argsstring>(int cupo)</argsstring>
+        <name>setCupo</name>
+        <qualifiedname>integrador.Actividad.setCupo</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cupo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="66" column="13" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="66" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a3bba7d772460904b38643a6e0a0e4346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String integrador.Actividad.getNombre</definition>
+        <argsstring>()</argsstring>
+        <name>getNombre</name>
+        <qualifiedname>integrador.Actividad.getNombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="70" column="15" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a0ff518bef51cdba63cb5763a64480d17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Actividad.setNombre</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>setNombre</name>
+        <qualifiedname>integrador.Actividad.setNombre</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="74" column="13" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1af40c3ec262c631877f7d0f9146f9fae2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+        <definition>Persona integrador.Actividad.getEncargado</definition>
+        <argsstring>()</argsstring>
+        <name>getEncargado</name>
+        <qualifiedname>integrador.Actividad.getEncargado</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="78" column="16" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="78" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a2b6b30fd866c7331cddb97aa6b892b7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Actividad.setEncargado</definition>
+        <argsstring>(Persona encargado)</argsstring>
+        <name>setEncargado</name>
+        <qualifiedname>integrador.Actividad.setEncargado</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+          <declname>encargado</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="82" column="13" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a79348699062db3e3932779d899f5f438" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref> &gt;</type>
+        <definition>ArrayList&lt; Socio &gt; integrador.Actividad.getInscriptos</definition>
+        <argsstring>()</argsstring>
+        <name>getInscriptos</name>
+        <qualifiedname>integrador.Actividad.getInscriptos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="88" column="18" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a3afcbcd8367b01d3849c1f7609a42140" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Actividad.setInscriptos</definition>
+        <argsstring>(ArrayList&lt; Socio &gt; inscriptos)</argsstring>
+        <name>setInscriptos</name>
+        <qualifiedname>integrador.Actividad.setInscriptos</qualifiedname>
+        <param>
+          <type>ArrayList&lt; <ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref> &gt;</type>
+          <declname>inscriptos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="92" column="13" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a302e3e1cecd9a57d3cca69fab29aa25d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int integrador.Actividad.getCantidadLimiteParticipantes</definition>
+        <argsstring>()</argsstring>
+        <name>getCantidadLimiteParticipantes</name>
+        <qualifiedname>integrador.Actividad.getCantidadLimiteParticipantes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="96" column="12" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="96" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a7de30859f72003d7a7414fcb8a1e7a8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Actividad.setCantidadLimiteParticipantes</definition>
+        <argsstring>(int cupo)</argsstring>
+        <name>setCantidadLimiteParticipantes</name>
+        <qualifiedname>integrador.Actividad.setCantidadLimiteParticipantes</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>cupo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="100" column="13" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="100" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a9576e847e363ee06e6687a8c206fa7b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Actividad.inscribirSocio</definition>
+        <argsstring>(Socio s)</argsstring>
+        <name>inscribirSocio</name>
+        <qualifiedname>integrador.Actividad.inscribirSocio</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref></type>
+          <declname>s</declname>
+        </param>
+        <exceptions> throws <ref refid="classintegrador_1_1_cupo_excedido_exception" kindref="compound">CupoExcedidoException</ref>, <ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref> </exceptions>
+        <briefdescription>
+<para>Inscribe a un socio en la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Socio que se desea inscribir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>CupoExcedidoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Se lanza si el cupo de la actividad está excedido. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EdadInsuficienteException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Se lanza si la edad del socio no cumple con el requisito mínimo. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="111" column="13" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="111" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a648779da99e60cac1e00320df0aa082b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref></type>
+        <definition>Socio integrador.Actividad.getSocioInscripto</definition>
+        <argsstring>(String dni)</argsstring>
+        <name>getSocioInscripto</name>
+        <qualifiedname>integrador.Actividad.getSocioInscripto</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>dni</declname>
+        </param>
+        <briefdescription>
+<para>Obtiene un socio inscripto en la actividad dado su DNI. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dni</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DNI del socio a buscar. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Socio inscripto con el DNI proporcionado, o null si no se encuentra. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="127" column="14" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="127" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_actividad_1a1bb42296dd8cd1308c071726d3bec215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String integrador.Actividad.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>integrador.Actividad.toString</qualifiedname>
+        <briefdescription>
+<para>Retorna un string que representa la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>String con nombre de la actividad y nombre del encargado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Actividad.java" line="140" column="15" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="140" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>ArrayList&lt; integrador.Socio &gt;</label>
+      </node>
+      <node id="1">
+        <label>integrador.Actividad</label>
+        <link refid="classintegrador_1_1_actividad"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>encargado</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>inscriptos</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>integrador.Persona</label>
+        <link refid="classintegrador_1_1_persona"/>
+      </node>
+    </collaborationgraph>
+    <location file="integrador/src/main/java/integrador/Actividad.java" line="12" column="7" bodyfile="integrador/src/main/java/integrador/Actividad.java" bodystart="12" bodyend="143"/>
+    <listofallmembers>
+      <member refid="classintegrador_1_1_actividad_1ac1d1782666cd249d416246f27bad2fd6" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>Actividad</name></member>
+      <member refid="classintegrador_1_1_actividad_1a16ce293fc11572faa07036b84064adf5" prot="package" virt="non-virtual"><scope>integrador::Actividad</scope><name>cupo</name></member>
+      <member refid="classintegrador_1_1_actividad_1abd8f2b940b06da6677ed711a47ae8c1f" prot="package" virt="non-virtual"><scope>integrador::Actividad</scope><name>edadMinima</name></member>
+      <member refid="classintegrador_1_1_actividad_1aceff3d24396133a9bc65609713ac9f8f" prot="package" virt="non-virtual"><scope>integrador::Actividad</scope><name>encargado</name></member>
+      <member refid="classintegrador_1_1_actividad_1a302e3e1cecd9a57d3cca69fab29aa25d" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>getCantidadLimiteParticipantes</name></member>
+      <member refid="classintegrador_1_1_actividad_1aec9d7c35577f5ed8fe64009961f52ee2" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>getCupo</name></member>
+      <member refid="classintegrador_1_1_actividad_1a97b56c489be21841aaac4cbd0d3f6afb" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>getEdadMinima</name></member>
+      <member refid="classintegrador_1_1_actividad_1af40c3ec262c631877f7d0f9146f9fae2" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>getEncargado</name></member>
+      <member refid="classintegrador_1_1_actividad_1a79348699062db3e3932779d899f5f438" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>getInscriptos</name></member>
+      <member refid="classintegrador_1_1_actividad_1a3bba7d772460904b38643a6e0a0e4346" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>getNombre</name></member>
+      <member refid="classintegrador_1_1_actividad_1a648779da99e60cac1e00320df0aa082b" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>getSocioInscripto</name></member>
+      <member refid="classintegrador_1_1_actividad_1a9576e847e363ee06e6687a8c206fa7b1" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>inscribirSocio</name></member>
+      <member refid="classintegrador_1_1_actividad_1a5039d3a6b38a5af377199ea892aba979" prot="package" virt="non-virtual"><scope>integrador::Actividad</scope><name>inscriptos</name></member>
+      <member refid="classintegrador_1_1_actividad_1a42a19341d2d20a191445776508ba1a78" prot="package" virt="non-virtual"><scope>integrador::Actividad</scope><name>nombre</name></member>
+      <member refid="classintegrador_1_1_actividad_1a7de30859f72003d7a7414fcb8a1e7a8e" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>setCantidadLimiteParticipantes</name></member>
+      <member refid="classintegrador_1_1_actividad_1aedf0bbe03975b865b70a1d8290b76641" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>setCupo</name></member>
+      <member refid="classintegrador_1_1_actividad_1a9780e160e6f8f46e4f345332471f121b" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>setEdadMinima</name></member>
+      <member refid="classintegrador_1_1_actividad_1a2b6b30fd866c7331cddb97aa6b892b7e" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>setEncargado</name></member>
+      <member refid="classintegrador_1_1_actividad_1a3afcbcd8367b01d3849c1f7609a42140" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>setInscriptos</name></member>
+      <member refid="classintegrador_1_1_actividad_1a0ff518bef51cdba63cb5763a64480d17" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>setNombre</name></member>
+      <member refid="classintegrador_1_1_actividad_1a1bb42296dd8cd1308c071726d3bec215" prot="public" virt="non-virtual"><scope>integrador::Actividad</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

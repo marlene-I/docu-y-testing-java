@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceintegrador" kind="namespace" language="Java">
+    <compoundname>integrador</compoundname>
+    <innerclass refid="classintegrador_1_1_actividad" prot="public">integrador::Actividad</innerclass>
+    <innerclass refid="classintegrador_1_1_cupo_excedido_exception" prot="public">integrador::CupoExcedidoException</innerclass>
+    <innerclass refid="classintegrador_1_1_edad_insuficiente_exception" prot="public">integrador::EdadInsuficienteException</innerclass>
+    <innerclass refid="classintegrador_1_1_no_existe_socio_exception" prot="public">integrador::NoExisteSocioException</innerclass>
+    <innerclass refid="classintegrador_1_1_nomina_socios" prot="public">integrador::NominaSocios</innerclass>
+    <innerclass refid="classintegrador_1_1_oferta_actividades" prot="public">integrador::OfertaActividades</innerclass>
+    <innerclass refid="classintegrador_1_1_persona" prot="public">integrador::Persona</innerclass>
+    <innerclass refid="classintegrador_1_1_prueba_humo" prot="public">integrador::PruebaHumo</innerclass>
+    <innerclass refid="classintegrador_1_1_socio" prot="public">integrador::Socio</innerclass>
+    <innerclass refid="classintegrador_1_1_ya_existe_socio_exception" prot="public">integrador::YaExisteSocioException</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="integrador/src/main/java/integrador/Actividad.java" line="2" column="15"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classtestng_1_1_actividad_test" kind="class" language="Java" prot="public">
+    <compoundname>testng::ActividadTest</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classtestng_1_1_actividad_test_1a6660b62d66d17019dacdc38a9cb5586f" prot="package" static="no" mutable="no">
+        <type><ref refid="classintegrador_1_1_actividad" kindref="compound">Actividad</ref></type>
+        <definition>Actividad testng.ActividadTest.actividad</definition>
+        <argsstring></argsstring>
+        <name>actividad</name>
+        <qualifiedname>testng.ActividadTest.actividad</qualifiedname>
+        <briefdescription>
+<para>Actividad utilizada para las pruebas. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="34" column="15" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1ab67297b6f33247e9e09fa0a84be77352" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref>[]</type>
+        <definition>Socio[] testng.ActividadTest.GeneradorSocios</definition>
+        <argsstring>()</argsstring>
+        <name>GeneradorSocios</name>
+        <qualifiedname>testng.ActividadTest.GeneradorSocios</qualifiedname>
+        <briefdescription>
+<para>Proveedor de datos para generar instancias de Socio. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Arreglo de socios generados para las pruebas. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="42" column="18" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="42" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1a7e64b9c715fa754f7751a3264fbd7a34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testng.ActividadTest.mockActividad</definition>
+        <argsstring>()</argsstring>
+        <name>mockActividad</name>
+        <qualifiedname>testng.ActividadTest.mockActividad</qualifiedname>
+        <briefdescription>
+<para>Crea una actividad de prueba inicial. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="88" column="17" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="88" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1a71f25eba65caf228058ff54f76154b75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testng.ActividadTest.testInscripcionSocio</definition>
+        <argsstring>(Socio socio)</argsstring>
+        <name>testInscripcionSocio</name>
+        <qualifiedname>testng.ActividadTest.testInscripcionSocio</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref></type>
+          <declname>socio</declname>
+        </param>
+        <exceptions> throws <ref refid="classintegrador_1_1_cupo_excedido_exception" kindref="compound">CupoExcedidoException</ref>, <ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref> </exceptions>
+        <briefdescription>
+<para>Prueba la inscripción de un socio en una actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>socio</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Socio a inscribir.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>CupoExcedidoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si se supera el cupo máximo de la actividad. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>EdadInsuficienteException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si la edad del socio no cumple con la mínima requerida. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="103" column="17" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="103" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1a7b2b8e02b7f31f1eb48c2798810fe9bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testng.ActividadTest.testNoInscribirSocioDeEdadInsuficiente</definition>
+        <argsstring>()</argsstring>
+        <name>testNoInscribirSocioDeEdadInsuficiente</name>
+        <qualifiedname>testng.ActividadTest.testNoInscribirSocioDeEdadInsuficiente</qualifiedname>
+        <exceptions> throws <ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref>, <ref refid="classintegrador_1_1_cupo_excedido_exception" kindref="compound">CupoExcedidoException</ref> </exceptions>
+        <briefdescription>
+<para>Prueba que la excepción EdadInsuficienteException sea lanzada correctamente si el socio no cumple con el mínimo requerido. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>EdadInsuficienteException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si la edad del socio con la mínima requerida. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CupoExcedidoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si se supera el cupo máximo de la actividad. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="132" column="17" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1ab9f2a79a0d5a544f6757be6230172c07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testng.ActividadTest.testNoSuperarCupo</definition>
+        <argsstring>()</argsstring>
+        <name>testNoSuperarCupo</name>
+        <qualifiedname>testng.ActividadTest.testNoSuperarCupo</qualifiedname>
+        <exceptions> throws <ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref>, <ref refid="classintegrador_1_1_cupo_excedido_exception" kindref="compound">CupoExcedidoException</ref> </exceptions>
+        <briefdescription>
+<para>Prueba que se lance la excepción CupoExcedidoException al intentar superar el cupo máximo de la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>EdadInsuficienteException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si la edad del socio no cumple con el requisito mínimo. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CupoExcedidoException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si se supera el cupo máximo de la actividad. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="144" column="17" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="144" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1ac7b84cf9fa7f3461e2e3fc3e677cc39d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref>[]</type>
+        <definition>Persona[] testng.ActividadTest.generadorPersonas</definition>
+        <argsstring>()</argsstring>
+        <name>generadorPersonas</name>
+        <qualifiedname>testng.ActividadTest.generadorPersonas</qualifiedname>
+        <briefdescription>
+<para>Proveedor de datos para generar instancias de Persona. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Arreglo de personas generadas para las pruebas. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="156" column="20" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="156" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1aa1c8c24badd77849ab609b86207f25e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void testng.ActividadTest.testSetEncargado</definition>
+        <argsstring>(Persona persona)</argsstring>
+        <name>testSetEncargado</name>
+        <qualifiedname>testng.ActividadTest.testSetEncargado</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+          <declname>persona</declname>
+        </param>
+        <briefdescription>
+<para>Prueba la asignación de un socio como responsable de la actividad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>persona</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Persona a asignar como responsable. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="183" column="17" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="183" bodyend="195"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtestng_1_1_actividad_test_1a4d6cd4c766e18cd4e3055d34fc3cc72b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void testng.ActividadTest.cargaSociosANomina</definition>
+        <argsstring>()</argsstring>
+        <name>cargaSociosANomina</name>
+        <qualifiedname>testng.ActividadTest.cargaSociosANomina</qualifiedname>
+        <exceptions> throws <ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref>, <ref refid="classintegrador_1_1_ya_existe_socio_exception" kindref="compound">YaExisteSocioException</ref> </exceptions>
+        <briefdescription>
+<para>Realiza la carga inicial de socios a la nómina del club. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>EdadInsuficienteException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si la edad del socio es insuficiente para ser asociado. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>YaExisteSocioException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Si el socio ya existe en la nómina. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/test/java/testng/ActividadTest.java" line="65" column="24" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="65" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>ArrayList&lt; integrador.Socio &gt;</label>
+      </node>
+      <node id="2">
+        <label>integrador.Actividad</label>
+        <link refid="classintegrador_1_1_actividad"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>encargado</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>inscriptos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>integrador.Persona</label>
+        <link refid="classintegrador_1_1_persona"/>
+      </node>
+      <node id="1">
+        <label>testng.ActividadTest</label>
+        <link refid="classtestng_1_1_actividad_test"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>actividad</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="integrador/src/test/java/testng/ActividadTest.java" line="29" column="7" bodyfile="integrador/src/test/java/testng/ActividadTest.java" bodystart="29" bodyend="197"/>
+    <listofallmembers>
+      <member refid="classtestng_1_1_actividad_test_1a6660b62d66d17019dacdc38a9cb5586f" prot="package" virt="non-virtual"><scope>testng::ActividadTest</scope><name>actividad</name></member>
+      <member refid="classtestng_1_1_actividad_test_1a4d6cd4c766e18cd4e3055d34fc3cc72b" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>cargaSociosANomina</name></member>
+      <member refid="classtestng_1_1_actividad_test_1ac7b84cf9fa7f3461e2e3fc3e677cc39d" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>generadorPersonas</name></member>
+      <member refid="classtestng_1_1_actividad_test_1ab67297b6f33247e9e09fa0a84be77352" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>GeneradorSocios</name></member>
+      <member refid="classtestng_1_1_actividad_test_1a7e64b9c715fa754f7751a3264fbd7a34" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>mockActividad</name></member>
+      <member refid="classtestng_1_1_actividad_test_1a71f25eba65caf228058ff54f76154b75" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>testInscripcionSocio</name></member>
+      <member refid="classtestng_1_1_actividad_test_1a7b2b8e02b7f31f1eb48c2798810fe9bf" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>testNoInscribirSocioDeEdadInsuficiente</name></member>
+      <member refid="classtestng_1_1_actividad_test_1ab9f2a79a0d5a544f6757be6230172c07" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>testNoSuperarCupo</name></member>
+      <member refid="classtestng_1_1_actividad_test_1aa1c8c24badd77849ab609b86207f25e9" prot="public" virt="non-virtual"><scope>testng::ActividadTest</scope><name>testSetEncargado</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

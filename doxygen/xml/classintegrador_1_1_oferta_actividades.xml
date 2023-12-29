@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classintegrador_1_1_oferta_actividades" kind="class" language="Java" prot="public">
+    <compoundname>integrador::OfertaActividades</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classintegrador_1_1_oferta_actividades_1ad43ea456fa8206231cd7d1352b382452" prot="package" static="yes" mutable="no">
+        <type>ArrayList&lt; <ref refid="classintegrador_1_1_actividad" kindref="compound">Actividad</ref> &gt;</type>
+        <definition>ArrayList&lt;Actividad&gt; integrador.OfertaActividades.nomina</definition>
+        <argsstring></argsstring>
+        <name>nomina</name>
+        <qualifiedname>integrador.OfertaActividades.nomina</qualifiedname>
+        <briefdescription>
+<para>Lista estática que almacena las actividades disponibles en el club. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/OfertaActividades.java" line="19" column="18" bodyfile="integrador/src/main/java/integrador/OfertaActividades.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classintegrador_1_1_oferta_actividades_1ab96d0a6c621856f5487a9e869204d960" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void integrador.OfertaActividades.NuevaActividad</definition>
+        <argsstring>(Actividad act)</argsstring>
+        <name>NuevaActividad</name>
+        <qualifiedname>integrador.OfertaActividades.NuevaActividad</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_actividad" kindref="compound">Actividad</ref></type>
+          <declname>act</declname>
+        </param>
+        <briefdescription>
+<para>Añade una nueva actividad a la lista de actividades disponibles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>act</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Actividad a ser añadida. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/OfertaActividades.java" line="25" column="20" bodyfile="integrador/src/main/java/integrador/OfertaActividades.java" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_oferta_actividades_1a8a0618daeddc2db58fe6bea1dd731a23" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int integrador.OfertaActividades.CantidadActividades</definition>
+        <argsstring>()</argsstring>
+        <name>CantidadActividades</name>
+        <qualifiedname>integrador.OfertaActividades.CantidadActividades</qualifiedname>
+        <briefdescription>
+<para>Obtiene la cantidad de actividades disponibles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Cantidad de actividades disponibles. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/OfertaActividades.java" line="44" column="19" bodyfile="integrador/src/main/java/integrador/OfertaActividades.java" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_oferta_actividades_1a1c3f2d0d8a7a6df2dba4234789dca02b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classintegrador_1_1_actividad" kindref="compound">Actividad</ref> &gt;</type>
+        <definition>static ArrayList&lt; Actividad &gt; integrador.OfertaActividades.GetNominaActividades</definition>
+        <argsstring>()</argsstring>
+        <name>GetNominaActividades</name>
+        <qualifiedname>integrador.OfertaActividades.GetNominaActividades</qualifiedname>
+        <briefdescription>
+<para>Obtiene la lista de actividades disponibles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Lista de actividades disponibles. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/OfertaActividades.java" line="52" column="26" bodyfile="integrador/src/main/java/integrador/OfertaActividades.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="classintegrador_1_1_oferta_actividades_1a08b7cef82d141aae544c568bf56f5f80" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void integrador.OfertaActividades.BorrarActividad</definition>
+        <argsstring>(Actividad act)</argsstring>
+        <name>BorrarActividad</name>
+        <qualifiedname>integrador.OfertaActividades.BorrarActividad</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_actividad" kindref="compound">Actividad</ref></type>
+          <declname>act</declname>
+        </param>
+        <briefdescription>
+<para>Elimina una actividad de la lista de actividades disponibles. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>act</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Actividad a ser eliminada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/OfertaActividades.java" line="35" column="13" bodyfile="integrador/src/main/java/integrador/OfertaActividades.java" bodystart="35" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ArrayList&lt; integrador.Actividad &gt;</label>
+      </node>
+      <node id="1">
+        <label>integrador.OfertaActividades</label>
+        <link refid="classintegrador_1_1_oferta_actividades"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>nomina</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="integrador/src/main/java/integrador/OfertaActividades.java" line="15" column="7" bodyfile="integrador/src/main/java/integrador/OfertaActividades.java" bodystart="15" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classintegrador_1_1_oferta_actividades_1a08b7cef82d141aae544c568bf56f5f80" prot="package" virt="non-virtual"><scope>integrador::OfertaActividades</scope><name>BorrarActividad</name></member>
+      <member refid="classintegrador_1_1_oferta_actividades_1a8a0618daeddc2db58fe6bea1dd731a23" prot="public" virt="non-virtual"><scope>integrador::OfertaActividades</scope><name>CantidadActividades</name></member>
+      <member refid="classintegrador_1_1_oferta_actividades_1a1c3f2d0d8a7a6df2dba4234789dca02b" prot="public" virt="non-virtual"><scope>integrador::OfertaActividades</scope><name>GetNominaActividades</name></member>
+      <member refid="classintegrador_1_1_oferta_actividades_1ad43ea456fa8206231cd7d1352b382452" prot="package" virt="non-virtual"><scope>integrador::OfertaActividades</scope><name>nomina</name></member>
+      <member refid="classintegrador_1_1_oferta_actividades_1ab96d0a6c621856f5487a9e869204d960" prot="public" virt="non-virtual"><scope>integrador::OfertaActividades</scope><name>NuevaActividad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

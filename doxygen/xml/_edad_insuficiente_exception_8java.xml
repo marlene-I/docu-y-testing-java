@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_edad_insuficiente_exception_8java" kind="file" language="Java">
+    <compoundname>EdadInsuficienteException.java</compoundname>
+    <innerclass refid="classintegrador_1_1_edad_insuficiente_exception" prot="public">integrador::EdadInsuficienteException</innerclass>
+    <innernamespace refid="namespaceintegrador">integrador</innernamespace>
+    <briefdescription>
+<para>Excepción para indicar que una persona no tiene edad suficiente para una acción. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2023-12-18</para>
+</simplesect>
+La excepción EdadInsuficienteException se lanza cuando se intenta inscribir realizar una acción y la persona involucrada no cumple con la edad mínima requerida para tal fin. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">integrador;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classintegrador_1_1_edad_insuficiente_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classintegrador_1_1_edad_insuficiente_exception_1a22b5613186d0ad51800a6080296694b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_edad_insuficiente_exception_1a22b5613186d0ad51800a6080296694b0" kindref="member">EdadInsuficienteException</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="integrador/src/main/java/integrador/EdadInsuficienteException.java"/>
+  </compounddef>
+</doxygen>

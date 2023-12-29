@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_socio_8java" kind="file" language="Java">
+    <compoundname>Socio.java</compoundname>
+    <innerclass refid="classintegrador_1_1_socio" prot="public">integrador::Socio</innerclass>
+    <innernamespace refid="namespaceintegrador">integrador</innernamespace>
+    <briefdescription>
+<para>La clase Socio representa a un miembro del club, asociado con una persona y un identificador único. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2023-12-18 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">integrador;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Date;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classintegrador_1_1_socio" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/>persona;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idSocio;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>Date<sp/>fechaIngreso;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classintegrador_1_1_socio_1aa93107f6e037bbb3ce125a580075bfe6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_socio_1aa93107f6e037bbb3ce125a580075bfe6" kindref="member">Socio</ref>(<ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.persona<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment"><sp/><sp/><sp/><sp/>/***</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Crea<sp/>un<sp/>objeto<sp/>socio<sp/>partiendo<sp/>de<sp/>tipos<sp/>primitivos</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@param<sp/>nombre<sp/><sp/><sp/>Nombre<sp/>del<sp/>socio</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@param<sp/>apellido<sp/>Apellido<sp/>del<sp/>socio</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@param<sp/>dni</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>@param<sp/>edad</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classintegrador_1_1_socio_1aefd57689679f7b1f9b20a7d2eb77c8fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_socio_1aefd57689679f7b1f9b20a7d2eb77c8fd" kindref="member">Socio</ref>(String<sp/>nombre,<sp/>String<sp/>apellido,<sp/>String<sp/>dni,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>edad)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/>p<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref>(nombre,<sp/>apellido,<sp/>dni,<sp/>edad);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.persona<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.<ref refid="classintegrador_1_1_socio_1a7cdd7f9fba3cc077d9684b9d88729e49" kindref="member">setFechaIngreso</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Date());</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classintegrador_1_1_socio_1a0394a1194a00508159da6b1503947324" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/><ref refid="classintegrador_1_1_socio_1a0394a1194a00508159da6b1503947324" kindref="member">getPersona</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>persona;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classintegrador_1_1_socio_1aa9e189024d442fb0a1c67a434c719ddb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_socio_1aa9e189024d442fb0a1c67a434c719ddb" kindref="member">setPersona</ref>(<ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/>p)<sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.persona<sp/>=<sp/>p;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classintegrador_1_1_socio_1a5294833932f25881e3c600cc8ad49880" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_socio_1a5294833932f25881e3c600cc8ad49880" kindref="member">getIdSocio</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>idSocio;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classintegrador_1_1_socio_1ab8f0d56e3c5b7209be521f9c4e3dec38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_socio_1ab8f0d56e3c5b7209be521f9c4e3dec38" kindref="member">setIdSocio</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>idSocio)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.idSocio<sp/>=<sp/>idSocio;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classintegrador_1_1_socio_1ac2706dc816819e2d88e68b62f9b088be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Date<sp/><ref refid="classintegrador_1_1_socio_1ac2706dc816819e2d88e68b62f9b088be" kindref="member">getFechaIngreso</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fechaIngreso;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="classintegrador_1_1_socio_1a7cdd7f9fba3cc077d9684b9d88729e49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_socio_1a7cdd7f9fba3cc077d9684b9d88729e49" kindref="member">setFechaIngreso</ref>(Date<sp/>fechaIngreso)<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.fechaIngreso<sp/>=<sp/>fechaIngreso;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classintegrador_1_1_socio_1a2d396ebf5db94e0ac029b768b408fae9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classintegrador_1_1_socio_1a2d396ebf5db94e0ac029b768b408fae9" kindref="member">toString</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.<ref refid="classintegrador_1_1_socio_1a0394a1194a00508159da6b1503947324" kindref="member">getPersona</ref>().<ref refid="classintegrador_1_1_persona_1ac7c03c3f02d8e87d157868e30b439239" kindref="member">getApellido</ref>()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;,<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>this.<ref refid="classintegrador_1_1_socio_1a0394a1194a00508159da6b1503947324" kindref="member">getPersona</ref>().<ref refid="classintegrador_1_1_persona_1a57bbfb70f0807a1d4123da8dc3e967f5" kindref="member">getNombre</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="integrador/src/main/java/integrador/Socio.java"/>
+  </compounddef>
+</doxygen>

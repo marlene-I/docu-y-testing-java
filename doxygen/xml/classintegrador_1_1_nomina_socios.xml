@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classintegrador_1_1_nomina_socios" kind="class" language="Java" prot="public">
+    <compoundname>integrador::NominaSocios</compoundname>
+    <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classintegrador_1_1_nomina_socios_1a5343435b4e1feaf49753f4037c92721b" prot="package" static="yes" mutable="no">
+        <type>ArrayList&lt; <ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref> &gt;</type>
+        <definition>ArrayList&lt;Socio&gt; integrador.NominaSocios.nomina</definition>
+        <argsstring></argsstring>
+        <name>nomina</name>
+        <qualifiedname>integrador.NominaSocios.nomina</qualifiedname>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+<para>Lista que almacena a todos los socios registrados en el club. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="19" column="17" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_nomina_socios_1a050d57d2257c81769c8f9324b46e85b6" prot="package" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int integrador.NominaSocios.proxSocio</definition>
+        <argsstring></argsstring>
+        <name>proxSocio</name>
+        <qualifiedname>integrador.NominaSocios.proxSocio</qualifiedname>
+        <briefdescription>
+<para>Índice que lleva el seguimiento del próximo identificador de socio a asignar. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="24" column="12" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classintegrador_1_1_nomina_socios_1ab870155e67c78e43c40c54ff09e5a4bf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void integrador.NominaSocios.Asociar</definition>
+        <argsstring>(Persona p)</argsstring>
+        <name>Asociar</name>
+        <qualifiedname>integrador.NominaSocios.Asociar</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+          <declname>p</declname>
+        </param>
+        <exceptions> throws <ref refid="classintegrador_1_1_ya_existe_socio_exception" kindref="compound">YaExisteSocioException</ref>, <ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="32" column="20" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="32" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_nomina_socios_1a2ea08bb124ee8171808be7b0d09da786" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int integrador.NominaSocios.getNextID</definition>
+        <argsstring>()</argsstring>
+        <name>getNextID</name>
+        <qualifiedname>integrador.NominaSocios.getNextID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Obtiene el id Autonumérico del próximo socio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="47" column="19" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_nomina_socios_1a5ee5af964bda67f3c579fdcda624dca1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean integrador.NominaSocios.YaExisteEnNomina</definition>
+        <argsstring>(Persona p)</argsstring>
+        <name>YaExisteEnNomina</name>
+        <qualifiedname>integrador.NominaSocios.YaExisteEnNomina</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indica si la persona existe en la nómina según su valor autonumérico <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Persona a buscar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="55" column="23" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_nomina_socios_1a013740463bab7fe99f79333a8bca1098" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void integrador.NominaSocios.Baja</definition>
+        <argsstring>(Socio s)</argsstring>
+        <name>Baja</name>
+        <qualifiedname>integrador.NominaSocios.Baja</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref></type>
+          <declname>s</declname>
+        </param>
+        <exceptions> throws <ref refid="classintegrador_1_1_no_existe_socio_exception" kindref="compound">NoExisteSocioException</ref> </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="66" column="20" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_nomina_socios_1a9e17275d47c7d0de831dc5e7b430569c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int integrador.NominaSocios.ContarSocios</definition>
+        <argsstring>()</argsstring>
+        <name>ContarSocios</name>
+        <qualifiedname>integrador.NominaSocios.ContarSocios</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="75" column="19" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="75" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_nomina_socios_1a58b41ddcffe4478b5b12f312df37803e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; <ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref> &gt;</type>
+        <definition>static ArrayList&lt; Socio &gt; integrador.NominaSocios.GetNomina</definition>
+        <argsstring>()</argsstring>
+        <name>GetNomina</name>
+        <qualifiedname>integrador.NominaSocios.GetNomina</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/NominaSocios.java" line="79" column="25" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>ArrayList&lt; integrador.Socio &gt;</label>
+      </node>
+      <node id="1">
+        <label>integrador.NominaSocios</label>
+        <link refid="classintegrador_1_1_nomina_socios"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>nomina</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="integrador/src/main/java/integrador/NominaSocios.java" line="14" column="7" bodyfile="integrador/src/main/java/integrador/NominaSocios.java" bodystart="14" bodyend="84"/>
+    <listofallmembers>
+      <member refid="classintegrador_1_1_nomina_socios_1ab870155e67c78e43c40c54ff09e5a4bf" prot="public" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>Asociar</name></member>
+      <member refid="classintegrador_1_1_nomina_socios_1a013740463bab7fe99f79333a8bca1098" prot="public" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>Baja</name></member>
+      <member refid="classintegrador_1_1_nomina_socios_1a9e17275d47c7d0de831dc5e7b430569c" prot="public" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>ContarSocios</name></member>
+      <member refid="classintegrador_1_1_nomina_socios_1a2ea08bb124ee8171808be7b0d09da786" prot="public" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>getNextID</name></member>
+      <member refid="classintegrador_1_1_nomina_socios_1a58b41ddcffe4478b5b12f312df37803e" prot="public" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>GetNomina</name></member>
+      <member refid="classintegrador_1_1_nomina_socios_1a5343435b4e1feaf49753f4037c92721b" prot="package" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>nomina</name></member>
+      <member refid="classintegrador_1_1_nomina_socios_1a050d57d2257c81769c8f9324b46e85b6" prot="package" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>proxSocio</name></member>
+      <member refid="classintegrador_1_1_nomina_socios_1a5ee5af964bda67f3c579fdcda624dca1" prot="public" virt="non-virtual"><scope>integrador::NominaSocios</scope><name>YaExisteEnNomina</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

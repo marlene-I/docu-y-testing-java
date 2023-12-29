@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classintegrador_1_1_socio" kind="class" language="Java" prot="public">
+    <compoundname>integrador::Socio</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classintegrador_1_1_socio_1a6ba30ff2bbaac65e67388199dcc295e2" prot="package" static="no" mutable="no">
+        <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+        <definition>Persona integrador.Socio.persona</definition>
+        <argsstring></argsstring>
+        <name>persona</name>
+        <qualifiedname>integrador.Socio.persona</qualifiedname>
+        <briefdescription>
+<para>Persona asociada al socio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="16" column="9" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_socio_1a179f2364e7c51e383b80d634e8bb1ef0" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int integrador.Socio.idSocio</definition>
+        <argsstring></argsstring>
+        <name>idSocio</name>
+        <qualifiedname>integrador.Socio.idSocio</qualifiedname>
+        <briefdescription>
+<para>Identificador único del socio. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="20" column="5" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_socio_1a9e7829daa97a14cc67c8cf823f8cb05c" prot="package" static="no" mutable="no">
+        <type>Date</type>
+        <definition>Date integrador.Socio.fechaIngreso</definition>
+        <argsstring></argsstring>
+        <name>fechaIngreso</name>
+        <qualifiedname>integrador.Socio.fechaIngreso</qualifiedname>
+        <briefdescription>
+<para>Fecha de ingreso del socio al club. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="24" column="6" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classintegrador_1_1_socio_1aa93107f6e037bbb3ce125a580075bfe6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>integrador.Socio.Socio</definition>
+        <argsstring>(Persona p)</argsstring>
+        <name>Socio</name>
+        <qualifiedname>integrador.Socio.Socio</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Crea un objeto Socio a partir de una instancia de Persona. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Persona asociada al socio. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="31" column="8" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1aefd57689679f7b1f9b20a7d2eb77c8fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>integrador.Socio.Socio</definition>
+        <argsstring>(String nombre, String apellido, String dni, int edad)</argsstring>
+        <name>Socio</name>
+        <qualifiedname>integrador.Socio.Socio</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>apellido</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dni</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>edad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="43" column="8" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="43" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1a0394a1194a00508159da6b1503947324" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+        <definition>Persona integrador.Socio.getPersona</definition>
+        <argsstring>()</argsstring>
+        <name>getPersona</name>
+        <qualifiedname>integrador.Socio.getPersona</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="49" column="16" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1aa9e189024d442fb0a1c67a434c719ddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Socio.setPersona</definition>
+        <argsstring>(Persona p)</argsstring>
+        <name>setPersona</name>
+        <qualifiedname>integrador.Socio.setPersona</qualifiedname>
+        <param>
+          <type><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="53" column="13" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1a5294833932f25881e3c600cc8ad49880" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int integrador.Socio.getIdSocio</definition>
+        <argsstring>()</argsstring>
+        <name>getIdSocio</name>
+        <qualifiedname>integrador.Socio.getIdSocio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="57" column="12" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1ab8f0d56e3c5b7209be521f9c4e3dec38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Socio.setIdSocio</definition>
+        <argsstring>(int idSocio)</argsstring>
+        <name>setIdSocio</name>
+        <qualifiedname>integrador.Socio.setIdSocio</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>idSocio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="61" column="13" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1ac2706dc816819e2d88e68b62f9b088be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Date</type>
+        <definition>Date integrador.Socio.getFechaIngreso</definition>
+        <argsstring>()</argsstring>
+        <name>getFechaIngreso</name>
+        <qualifiedname>integrador.Socio.getFechaIngreso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="65" column="13" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1a7cdd7f9fba3cc077d9684b9d88729e49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Socio.setFechaIngreso</definition>
+        <argsstring>(Date fechaIngreso)</argsstring>
+        <name>setFechaIngreso</name>
+        <qualifiedname>integrador.Socio.setFechaIngreso</qualifiedname>
+        <param>
+          <type>Date</type>
+          <declname>fechaIngreso</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="69" column="13" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_socio_1a2d396ebf5db94e0ac029b768b408fae9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String integrador.Socio.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>integrador.Socio.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Socio.java" line="73" column="15" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="73" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>integrador.Socio</label>
+        <link refid="classintegrador_1_1_socio"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>persona</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>fechaIngreso</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>integrador.Persona</label>
+        <link refid="classintegrador_1_1_persona"/>
+      </node>
+      <node id="3">
+        <label>Date</label>
+      </node>
+    </collaborationgraph>
+    <location file="integrador/src/main/java/integrador/Socio.java" line="12" column="7" bodyfile="integrador/src/main/java/integrador/Socio.java" bodystart="12" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classintegrador_1_1_socio_1a9e7829daa97a14cc67c8cf823f8cb05c" prot="package" virt="non-virtual"><scope>integrador::Socio</scope><name>fechaIngreso</name></member>
+      <member refid="classintegrador_1_1_socio_1ac2706dc816819e2d88e68b62f9b088be" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>getFechaIngreso</name></member>
+      <member refid="classintegrador_1_1_socio_1a5294833932f25881e3c600cc8ad49880" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>getIdSocio</name></member>
+      <member refid="classintegrador_1_1_socio_1a0394a1194a00508159da6b1503947324" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>getPersona</name></member>
+      <member refid="classintegrador_1_1_socio_1a179f2364e7c51e383b80d634e8bb1ef0" prot="package" virt="non-virtual"><scope>integrador::Socio</scope><name>idSocio</name></member>
+      <member refid="classintegrador_1_1_socio_1a6ba30ff2bbaac65e67388199dcc295e2" prot="package" virt="non-virtual"><scope>integrador::Socio</scope><name>persona</name></member>
+      <member refid="classintegrador_1_1_socio_1a7cdd7f9fba3cc077d9684b9d88729e49" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>setFechaIngreso</name></member>
+      <member refid="classintegrador_1_1_socio_1ab8f0d56e3c5b7209be521f9c4e3dec38" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>setIdSocio</name></member>
+      <member refid="classintegrador_1_1_socio_1aa9e189024d442fb0a1c67a434c719ddb" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>setPersona</name></member>
+      <member refid="classintegrador_1_1_socio_1aa93107f6e037bbb3ce125a580075bfe6" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>Socio</name></member>
+      <member refid="classintegrador_1_1_socio_1aefd57689679f7b1f9b20a7d2eb77c8fd" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>Socio</name></member>
+      <member refid="classintegrador_1_1_socio_1a2d396ebf5db94e0ac029b768b408fae9" prot="public" virt="non-virtual"><scope>integrador::Socio</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

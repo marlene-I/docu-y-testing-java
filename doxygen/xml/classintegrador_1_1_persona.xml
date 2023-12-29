@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classintegrador_1_1_persona" kind="class" language="Java" prot="public">
+    <compoundname>integrador::Persona</compoundname>
+    <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="classintegrador_1_1_persona_1a2a60cb04bc0eca06122985fae5dceff7" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String integrador.Persona.nombre</definition>
+        <argsstring></argsstring>
+        <name>nombre</name>
+        <qualifiedname>integrador.Persona.nombre</qualifiedname>
+        <briefdescription>
+<para>Nombre de la persona. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="29" column="8" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_persona_1a11ec971a6c912a7bc71a856018160e8e" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String integrador.Persona.apellido</definition>
+        <argsstring></argsstring>
+        <name>apellido</name>
+        <qualifiedname>integrador.Persona.apellido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="30" column="8" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_persona_1a1b53adcf224eb622531a345b25e0b10b" prot="package" static="no" mutable="no">
+        <type>String</type>
+        <definition>String integrador.Persona.dni</definition>
+        <argsstring></argsstring>
+        <name>dni</name>
+        <qualifiedname>integrador.Persona.dni</qualifiedname>
+        <briefdescription>
+<para>DNI (Documento Nacional de Identidad) de la persona. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="34" column="8" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classintegrador_1_1_persona_1a8d6779f6c32f6d9f82eccbd1ac103bf6" prot="package" static="no" mutable="no">
+        <type>int</type>
+        <definition>int integrador.Persona.edad</definition>
+        <argsstring></argsstring>
+        <name>edad</name>
+        <qualifiedname>integrador.Persona.edad</qualifiedname>
+        <briefdescription>
+<para>Edad de la persona. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="38" column="5" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classintegrador_1_1_persona_1a9ad30628e4f7dcf16b3ed2c2ddeb3598" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>integrador.Persona.Persona</definition>
+        <argsstring>(String nombre, String apellido, String dni, int edad)</argsstring>
+        <name>Persona</name>
+        <qualifiedname>integrador.Persona.Persona</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>apellido</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dni</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>edad</declname>
+        </param>
+        <briefdescription>
+<para>Constructor de la clase Persona. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nombre</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nombre de la persona. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>apellido</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apellido de la persona. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dni</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>DNI (Documento Nacional de Identidad) de la persona. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>edad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Edad de la persona. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="19" column="9" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1a57bbfb70f0807a1d4123da8dc3e967f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String integrador.Persona.getNombre</definition>
+        <argsstring>()</argsstring>
+        <name>getNombre</name>
+        <qualifiedname>integrador.Persona.getNombre</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="40" column="15" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1a06064428b3e20cea1c954b64bd5efed0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Persona.setNombre</definition>
+        <argsstring>(String nombre)</argsstring>
+        <name>setNombre</name>
+        <qualifiedname>integrador.Persona.setNombre</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>nombre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="43" column="13" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1ac7c03c3f02d8e87d157868e30b439239" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String integrador.Persona.getApellido</definition>
+        <argsstring>()</argsstring>
+        <name>getApellido</name>
+        <qualifiedname>integrador.Persona.getApellido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="46" column="15" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1a635eb7ac1ba56716f0988931bdf59704" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Persona.setApellido</definition>
+        <argsstring>(String apellido)</argsstring>
+        <name>setApellido</name>
+        <qualifiedname>integrador.Persona.setApellido</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>apellido</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="49" column="13" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1a88e774f8d5cb3fb643b67cce3427dee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String integrador.Persona.getDni</definition>
+        <argsstring>()</argsstring>
+        <name>getDni</name>
+        <qualifiedname>integrador.Persona.getDni</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="52" column="15" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1aa1e45006fa8cee92ae7599dfb9da8d41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Persona.setDni</definition>
+        <argsstring>(String dni)</argsstring>
+        <name>setDni</name>
+        <qualifiedname>integrador.Persona.setDni</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>dni</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="55" column="13" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1aa59e5e95b36f21f5fbec39455fd06618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int integrador.Persona.getEdad</definition>
+        <argsstring>()</argsstring>
+        <name>getEdad</name>
+        <qualifiedname>integrador.Persona.getEdad</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="58" column="12" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classintegrador_1_1_persona_1aba70d3f6d9252da9e1c2a3353e1b37a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void integrador.Persona.setEdad</definition>
+        <argsstring>(int edad)</argsstring>
+        <name>setEdad</name>
+        <qualifiedname>integrador.Persona.setEdad</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>edad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="integrador/src/main/java/integrador/Persona.java" line="61" column="13" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="61" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="integrador/src/main/java/integrador/Persona.java" line="10" column="7" bodyfile="integrador/src/main/java/integrador/Persona.java" bodystart="10" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classintegrador_1_1_persona_1a11ec971a6c912a7bc71a856018160e8e" prot="package" virt="non-virtual"><scope>integrador::Persona</scope><name>apellido</name></member>
+      <member refid="classintegrador_1_1_persona_1a1b53adcf224eb622531a345b25e0b10b" prot="package" virt="non-virtual"><scope>integrador::Persona</scope><name>dni</name></member>
+      <member refid="classintegrador_1_1_persona_1a8d6779f6c32f6d9f82eccbd1ac103bf6" prot="package" virt="non-virtual"><scope>integrador::Persona</scope><name>edad</name></member>
+      <member refid="classintegrador_1_1_persona_1ac7c03c3f02d8e87d157868e30b439239" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>getApellido</name></member>
+      <member refid="classintegrador_1_1_persona_1a88e774f8d5cb3fb643b67cce3427dee3" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>getDni</name></member>
+      <member refid="classintegrador_1_1_persona_1aa59e5e95b36f21f5fbec39455fd06618" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>getEdad</name></member>
+      <member refid="classintegrador_1_1_persona_1a57bbfb70f0807a1d4123da8dc3e967f5" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>getNombre</name></member>
+      <member refid="classintegrador_1_1_persona_1a2a60cb04bc0eca06122985fae5dceff7" prot="package" virt="non-virtual"><scope>integrador::Persona</scope><name>nombre</name></member>
+      <member refid="classintegrador_1_1_persona_1a9ad30628e4f7dcf16b3ed2c2ddeb3598" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>Persona</name></member>
+      <member refid="classintegrador_1_1_persona_1a635eb7ac1ba56716f0988931bdf59704" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>setApellido</name></member>
+      <member refid="classintegrador_1_1_persona_1aa1e45006fa8cee92ae7599dfb9da8d41" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>setDni</name></member>
+      <member refid="classintegrador_1_1_persona_1aba70d3f6d9252da9e1c2a3353e1b37a0" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>setEdad</name></member>
+      <member refid="classintegrador_1_1_persona_1a06064428b3e20cea1c954b64bd5efed0" prot="public" virt="non-virtual"><scope>integrador::Persona</scope><name>setNombre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

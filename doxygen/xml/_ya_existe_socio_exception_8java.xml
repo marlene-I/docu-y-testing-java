@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_ya_existe_socio_exception_8java" kind="file" language="Java">
+    <compoundname>YaExisteSocioException.java</compoundname>
+    <innerclass refid="classintegrador_1_1_ya_existe_socio_exception" prot="public">integrador::YaExisteSocioException</innerclass>
+    <innernamespace refid="namespaceintegrador">integrador</innernamespace>
+    <briefdescription>
+<para>La excepción YaExisteSocioException se utiliza para advertir que se está queriendo agregar un socio que ya existe. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2023-12-18 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">integrador;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classintegrador_1_1_ya_existe_socio_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classintegrador_1_1_ya_existe_socio_exception" kindref="compound">YaExisteSocioException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="integrador/src/main/java/integrador/YaExisteSocioException.java"/>
+  </compounddef>
+</doxygen>

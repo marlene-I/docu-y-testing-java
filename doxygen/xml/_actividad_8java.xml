@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_actividad_8java" kind="file" language="Java">
+    <compoundname>Actividad.java</compoundname>
+    <innerclass refid="classintegrador_1_1_actividad" prot="public">integrador::Actividad</innerclass>
+    <innernamespace refid="namespaceintegrador">integrador</innernamespace>
+    <innernamespace refid="namespacejava_1_1lang">java::lang</innernamespace>
+    <briefdescription>
+<para>Definición de la clase Actividad. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2023-12-18 </para>
+</simplesect>
+<simplesect kind="author"><para>Marlene Carli, <ulink url="mailto:mcarli@exa.unicen.edu.ar">mcarli@exa.unicen.edu.ar</ulink> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="namespaceintegrador" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">integrador;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classintegrador_1_1_actividad" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classintegrador_1_1_actividad" kindref="compound">Actividad</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classintegrador_1_1_actividad_1ac1d1782666cd249d416246f27bad2fd6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1ac1d1782666cd249d416246f27bad2fd6" kindref="member">Actividad</ref>(String<sp/>nombre,<sp/><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/>encargado,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cupo,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>edadMInima)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.nombre<sp/>=<sp/>nombre;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.<ref refid="classintegrador_1_1_actividad_1a2b6b30fd866c7331cddb97aa6b892b7e" kindref="member">setEncargado</ref>(encargado);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.cupo<sp/>=<sp/>cupo;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.edadMinima<sp/>=<sp/>edadMInima;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.inscriptos<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;Socio&gt;();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>String<sp/>nombre;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/>encargado;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>ArrayList&lt;Socio&gt;<sp/>inscriptos;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>edadMinima;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cupo;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classintegrador_1_1_actividad_1a97b56c489be21841aaac4cbd0d3f6afb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a97b56c489be21841aaac4cbd0d3f6afb" kindref="member">getEdadMinima</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>edadMinima;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classintegrador_1_1_actividad_1a9780e160e6f8f46e4f345332471f121b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a9780e160e6f8f46e4f345332471f121b" kindref="member">setEdadMinima</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>edadMinima)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.edadMinima<sp/>=<sp/>edadMinima;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="classintegrador_1_1_actividad_1aec9d7c35577f5ed8fe64009961f52ee2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1aec9d7c35577f5ed8fe64009961f52ee2" kindref="member">getCupo</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cupo;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="classintegrador_1_1_actividad_1aedf0bbe03975b865b70a1d8290b76641" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1aedf0bbe03975b865b70a1d8290b76641" kindref="member">setCupo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cupo)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.cupo<sp/>=<sp/>cupo;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classintegrador_1_1_actividad_1a3bba7d772460904b38643a6e0a0e4346" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classintegrador_1_1_actividad_1a3bba7d772460904b38643a6e0a0e4346" kindref="member">getNombre</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nombre;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classintegrador_1_1_actividad_1a0ff518bef51cdba63cb5763a64480d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a0ff518bef51cdba63cb5763a64480d17" kindref="member">setNombre</ref>(String<sp/>nombre)<sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.nombre<sp/>=<sp/>nombre;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="classintegrador_1_1_actividad_1af40c3ec262c631877f7d0f9146f9fae2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/><ref refid="classintegrador_1_1_actividad_1af40c3ec262c631877f7d0f9146f9fae2" kindref="member">getEncargado</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>encargado;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="classintegrador_1_1_actividad_1a2b6b30fd866c7331cddb97aa6b892b7e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a2b6b30fd866c7331cddb97aa6b892b7e" kindref="member">setEncargado</ref>(<ref refid="classintegrador_1_1_persona" kindref="compound">Persona</ref><sp/>encargado)<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="classintegrador_1_1_nomina_socios" kindref="compound">NominaSocios</ref>.<ref refid="classintegrador_1_1_nomina_socios_1a5ee5af964bda67f3c579fdcda624dca1" kindref="member">YaExisteEnNomina</ref>(encargado))<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.encargado<sp/>=<sp/>encargado;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="classintegrador_1_1_actividad_1a79348699062db3e3932779d899f5f438" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ArrayList&lt;Socio&gt;<sp/><ref refid="classintegrador_1_1_actividad_1a79348699062db3e3932779d899f5f438" kindref="member">getInscriptos</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>inscriptos;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="classintegrador_1_1_actividad_1a3afcbcd8367b01d3849c1f7609a42140" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a3afcbcd8367b01d3849c1f7609a42140" kindref="member">setInscriptos</ref>(ArrayList&lt;Socio&gt;<sp/>inscriptos)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.inscriptos<sp/>=<sp/>inscriptos;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="classintegrador_1_1_actividad_1a302e3e1cecd9a57d3cca69fab29aa25d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a302e3e1cecd9a57d3cca69fab29aa25d" kindref="member">getCantidadLimiteParticipantes</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>cupo;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="classintegrador_1_1_actividad_1a7de30859f72003d7a7414fcb8a1e7a8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a7de30859f72003d7a7414fcb8a1e7a8e" kindref="member">setCantidadLimiteParticipantes</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cupo)<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.cupo<sp/>=<sp/>cupo;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="classintegrador_1_1_actividad_1a9576e847e363ee06e6687a8c206fa7b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_actividad_1a9576e847e363ee06e6687a8c206fa7b1" kindref="member">inscribirSocio</ref>(<ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref><sp/>s)<sp/></highlight><highlight class="keywordflow">throws</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_cupo_excedido_exception" kindref="compound">CupoExcedidoException</ref>,<sp/><ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(inscriptos<sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inscriptos<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;Socio&gt;();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this.<ref refid="classintegrador_1_1_actividad_1a79348699062db3e3932779d899f5f438" kindref="member">getInscriptos</ref>().size()<sp/>+<sp/>1<sp/>&gt;<sp/>this.<ref refid="classintegrador_1_1_actividad_1aec9d7c35577f5ed8fe64009961f52ee2" kindref="member">getCupo</ref>())</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CupoExcedidoException();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s.getPersona().getEdad()<sp/>&lt;<sp/>edadMinima)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_edad_insuficiente_exception" kindref="compound">EdadInsuficienteException</ref>();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inscriptos.add(s);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="classintegrador_1_1_actividad_1a648779da99e60cac1e00320df0aa082b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref><sp/><ref refid="classintegrador_1_1_actividad_1a648779da99e60cac1e00320df0aa082b" kindref="member">getSocioInscripto</ref>(String<sp/>dni)<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<ref refid="classintegrador_1_1_socio" kindref="compound">Socio</ref><sp/>socio<sp/>:<sp/>inscriptos)<sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(socio.getPersona().getDni()<sp/>==<sp/>dni)</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>socio;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="classintegrador_1_1_actividad_1a1bb42296dd8cd1308c071726d3bec215" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="classintegrador_1_1_actividad_1a1bb42296dd8cd1308c071726d3bec215" kindref="member">toString</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.<ref refid="classintegrador_1_1_actividad_1a3bba7d772460904b38643a6e0a0e4346" kindref="member">getNombre</ref>()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/>a<sp/>cargo<sp/>de<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>this.<ref refid="classintegrador_1_1_actividad_1af40c3ec262c631877f7d0f9146f9fae2" kindref="member">getEncargado</ref>().<ref refid="classintegrador_1_1_persona_1a57bbfb70f0807a1d4123da8dc3e967f5" kindref="member">getNombre</ref>();</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="integrador/src/main/java/integrador/Actividad.java"/>
+  </compounddef>
+</doxygen>

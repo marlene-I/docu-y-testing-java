@@ -1,5 +1,6 @@
 package integrador;
 
+
 public class PruebaHumo {
 
 	public static void main(String[] args) {

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_no_existe_socio_exception_8java" kind="file" language="Java">
+    <compoundname>NoExisteSocioException.java</compoundname>
+    <innerclass refid="classintegrador_1_1_no_existe_socio_exception" prot="public">integrador::NoExisteSocioException</innerclass>
+    <innernamespace refid="namespaceintegrador">integrador</innernamespace>
+    <briefdescription>
+<para>Excepción para indicar que el socio referenciado no existe. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="date"><para>2023-12-18</para>
+</simplesect>
+La excepción NoExisteSocioException se lanza cuando se realiza una operación que requiere la existencia de un socio, pero el socio no se encuentra en la lista o en el contexto esperado. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">integrador;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classintegrador_1_1_no_existe_socio_exception" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classintegrador_1_1_no_existe_socio_exception" kindref="compound">NoExisteSocioException</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/>Exception<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classintegrador_1_1_no_existe_socio_exception_1abd2f1f81ed82bd58538fa2fed966c3fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classintegrador_1_1_no_existe_socio_exception_1abd2f1f81ed82bd58538fa2fed966c3fa" kindref="member">NoExisteSocioException</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="integrador/src/main/java/integrador/NoExisteSocioException.java"/>
+  </compounddef>
+</doxygen>

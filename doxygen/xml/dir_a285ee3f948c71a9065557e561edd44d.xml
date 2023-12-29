@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_a285ee3f948c71a9065557e561edd44d" kind="dir">
+    <compoundname>integrador</compoundname>
+    <innerdir refid="dir_333da6d9884d49fb197100b366ce628c">integrador/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="integrador/"/>
+  </compounddef>
+</doxygen>

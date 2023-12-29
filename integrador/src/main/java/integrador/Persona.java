@@ -1,6 +1,22 @@
 package integrador;
 
-public class Persona {
+import java.io.Serializable;
+
+/**
+ * @file Persona.java
+ * @brief La clase Persona representa a un individuo con atributos básicos
+ * @date 2023-12-18
+ * 
+ */
+public class Persona implements Serializable{
+	/**
+     * @brief Constructor de la clase Persona.
+     * 
+     * @param nombre   Nombre de la persona.
+     * @param apellido Apellido de la persona.
+     * @param dni      DNI (Documento Nacional de Identidad) de la persona.
+     * @param edad     Edad de la persona.
+     */
 	 public Persona(String nombre, String apellido, String dni, int edad) {
 		super();
 		this.nombre = nombre;
@@ -8,10 +24,20 @@ public class Persona {
 		this.dni = dni;
 		this.edad = edad;
 	}
+	/**
+     * @brief Nombre de la persona.
+     */
 	String nombre;
-	 String apellido;
-	 String dni;
-	 int edad;
+	String apellido;
+	/**
+     * @brief DNI (Documento Nacional de Identidad) de la persona.
+     */
+	String dni;
+	/**
+     * @brief Edad de la persona.
+     */
+	int edad;
+	
 	public String getNombre() {
 		return nombre;
 	}

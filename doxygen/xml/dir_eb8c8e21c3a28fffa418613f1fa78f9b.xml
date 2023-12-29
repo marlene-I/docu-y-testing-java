@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_eb8c8e21c3a28fffa418613f1fa78f9b" kind="dir">
+    <compoundname>integrador/src/test/java</compoundname>
+    <innerdir refid="dir_82fe48fa01d4582724d469aad57ad71f">integrador/src/test/java/testng</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="integrador/src/test/java/"/>
+  </compounddef>
+</doxygen>

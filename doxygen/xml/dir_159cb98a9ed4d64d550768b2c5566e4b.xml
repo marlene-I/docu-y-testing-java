@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_159cb98a9ed4d64d550768b2c5566e4b" kind="dir">
+    <compoundname>integrador/src/main/java/integrador</compoundname>
+    <innerfile refid="_actividad_8java">Actividad.java</innerfile>
+    <innerfile refid="_cupo_excedido_exception_8java">CupoExcedidoException.java</innerfile>
+    <innerfile refid="_edad_insuficiente_exception_8java">EdadInsuficienteException.java</innerfile>
+    <innerfile refid="_no_existe_socio_exception_8java">NoExisteSocioException.java</innerfile>
+    <innerfile refid="_nomina_socios_8java">NominaSocios.java</innerfile>
+    <innerfile refid="_oferta_actividades_8java">OfertaActividades.java</innerfile>
+    <innerfile refid="_persona_8java">Persona.java</innerfile>
+    <innerfile refid="_prueba_humo_8java">PruebaHumo.java</innerfile>
+    <innerfile refid="_socio_8java">Socio.java</innerfile>
+    <innerfile refid="_ya_existe_socio_exception_8java">YaExisteSocioException.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="integrador/src/main/java/integrador/"/>
+  </compounddef>
+</doxygen>

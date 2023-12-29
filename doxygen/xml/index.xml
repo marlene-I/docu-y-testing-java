@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="classintegrador_1_1_actividad" kind="class"><name>integrador::Actividad</name>
+    <member refid="classintegrador_1_1_actividad_1a42a19341d2d20a191445776508ba1a78" kind="variable"><name>nombre</name></member>
+    <member refid="classintegrador_1_1_actividad_1aceff3d24396133a9bc65609713ac9f8f" kind="variable"><name>encargado</name></member>
+    <member refid="classintegrador_1_1_actividad_1a5039d3a6b38a5af377199ea892aba979" kind="variable"><name>inscriptos</name></member>
+    <member refid="classintegrador_1_1_actividad_1abd8f2b940b06da6677ed711a47ae8c1f" kind="variable"><name>edadMinima</name></member>
+    <member refid="classintegrador_1_1_actividad_1a16ce293fc11572faa07036b84064adf5" kind="variable"><name>cupo</name></member>
+    <member refid="classintegrador_1_1_actividad_1ac1d1782666cd249d416246f27bad2fd6" kind="function"><name>Actividad</name></member>
+    <member refid="classintegrador_1_1_actividad_1a97b56c489be21841aaac4cbd0d3f6afb" kind="function"><name>getEdadMinima</name></member>
+    <member refid="classintegrador_1_1_actividad_1a9780e160e6f8f46e4f345332471f121b" kind="function"><name>setEdadMinima</name></member>
+    <member refid="classintegrador_1_1_actividad_1aec9d7c35577f5ed8fe64009961f52ee2" kind="function"><name>getCupo</name></member>
+    <member refid="classintegrador_1_1_actividad_1aedf0bbe03975b865b70a1d8290b76641" kind="function"><name>setCupo</name></member>
+    <member refid="classintegrador_1_1_actividad_1a3bba7d772460904b38643a6e0a0e4346" kind="function"><name>getNombre</name></member>
+    <member refid="classintegrador_1_1_actividad_1a0ff518bef51cdba63cb5763a64480d17" kind="function"><name>setNombre</name></member>
+    <member refid="classintegrador_1_1_actividad_1af40c3ec262c631877f7d0f9146f9fae2" kind="function"><name>getEncargado</name></member>
+    <member refid="classintegrador_1_1_actividad_1a2b6b30fd866c7331cddb97aa6b892b7e" kind="function"><name>setEncargado</name></member>
+    <member refid="classintegrador_1_1_actividad_1a79348699062db3e3932779d899f5f438" kind="function"><name>getInscriptos</name></member>
+    <member refid="classintegrador_1_1_actividad_1a3afcbcd8367b01d3849c1f7609a42140" kind="function"><name>setInscriptos</name></member>
+    <member refid="classintegrador_1_1_actividad_1a302e3e1cecd9a57d3cca69fab29aa25d" kind="function"><name>getCantidadLimiteParticipantes</name></member>
+    <member refid="classintegrador_1_1_actividad_1a7de30859f72003d7a7414fcb8a1e7a8e" kind="function"><name>setCantidadLimiteParticipantes</name></member>
+    <member refid="classintegrador_1_1_actividad_1a9576e847e363ee06e6687a8c206fa7b1" kind="function"><name>inscribirSocio</name></member>
+    <member refid="classintegrador_1_1_actividad_1a648779da99e60cac1e00320df0aa082b" kind="function"><name>getSocioInscripto</name></member>
+    <member refid="classintegrador_1_1_actividad_1a1bb42296dd8cd1308c071726d3bec215" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classtestng_1_1_actividad_test" kind="class"><name>testng::ActividadTest</name>
+    <member refid="classtestng_1_1_actividad_test_1a6660b62d66d17019dacdc38a9cb5586f" kind="variable"><name>actividad</name></member>
+    <member refid="classtestng_1_1_actividad_test_1ab67297b6f33247e9e09fa0a84be77352" kind="function"><name>GeneradorSocios</name></member>
+    <member refid="classtestng_1_1_actividad_test_1a7e64b9c715fa754f7751a3264fbd7a34" kind="function"><name>mockActividad</name></member>
+    <member refid="classtestng_1_1_actividad_test_1a71f25eba65caf228058ff54f76154b75" kind="function"><name>testInscripcionSocio</name></member>
+    <member refid="classtestng_1_1_actividad_test_1a7b2b8e02b7f31f1eb48c2798810fe9bf" kind="function"><name>testNoInscribirSocioDeEdadInsuficiente</name></member>
+    <member refid="classtestng_1_1_actividad_test_1ab9f2a79a0d5a544f6757be6230172c07" kind="function"><name>testNoSuperarCupo</name></member>
+    <member refid="classtestng_1_1_actividad_test_1ac7b84cf9fa7f3461e2e3fc3e677cc39d" kind="function"><name>generadorPersonas</name></member>
+    <member refid="classtestng_1_1_actividad_test_1aa1c8c24badd77849ab609b86207f25e9" kind="function"><name>testSetEncargado</name></member>
+    <member refid="classtestng_1_1_actividad_test_1a4d6cd4c766e18cd4e3055d34fc3cc72b" kind="function"><name>cargaSociosANomina</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_cupo_excedido_exception" kind="class"><name>integrador::CupoExcedidoException</name>
+    <member refid="classintegrador_1_1_cupo_excedido_exception_1a034209c9d69bc2dd922a6fbde0bdda8d" kind="function"><name>CupoExcedidoException</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_edad_insuficiente_exception" kind="class"><name>integrador::EdadInsuficienteException</name>
+    <member refid="classintegrador_1_1_edad_insuficiente_exception_1a22b5613186d0ad51800a6080296694b0" kind="function"><name>EdadInsuficienteException</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_no_existe_socio_exception" kind="class"><name>integrador::NoExisteSocioException</name>
+    <member refid="classintegrador_1_1_no_existe_socio_exception_1abd2f1f81ed82bd58538fa2fed966c3fa" kind="function"><name>NoExisteSocioException</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_nomina_socios" kind="class"><name>integrador::NominaSocios</name>
+    <member refid="classintegrador_1_1_nomina_socios_1a5343435b4e1feaf49753f4037c92721b" kind="variable"><name>nomina</name></member>
+    <member refid="classintegrador_1_1_nomina_socios_1a050d57d2257c81769c8f9324b46e85b6" kind="variable"><name>proxSocio</name></member>
+    <member refid="classintegrador_1_1_nomina_socios_1ab870155e67c78e43c40c54ff09e5a4bf" kind="function"><name>Asociar</name></member>
+    <member refid="classintegrador_1_1_nomina_socios_1a2ea08bb124ee8171808be7b0d09da786" kind="function"><name>getNextID</name></member>
+    <member refid="classintegrador_1_1_nomina_socios_1a5ee5af964bda67f3c579fdcda624dca1" kind="function"><name>YaExisteEnNomina</name></member>
+    <member refid="classintegrador_1_1_nomina_socios_1a013740463bab7fe99f79333a8bca1098" kind="function"><name>Baja</name></member>
+    <member refid="classintegrador_1_1_nomina_socios_1a9e17275d47c7d0de831dc5e7b430569c" kind="function"><name>ContarSocios</name></member>
+    <member refid="classintegrador_1_1_nomina_socios_1a58b41ddcffe4478b5b12f312df37803e" kind="function"><name>GetNomina</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_oferta_actividades" kind="class"><name>integrador::OfertaActividades</name>
+    <member refid="classintegrador_1_1_oferta_actividades_1ad43ea456fa8206231cd7d1352b382452" kind="variable"><name>nomina</name></member>
+    <member refid="classintegrador_1_1_oferta_actividades_1ab96d0a6c621856f5487a9e869204d960" kind="function"><name>NuevaActividad</name></member>
+    <member refid="classintegrador_1_1_oferta_actividades_1a8a0618daeddc2db58fe6bea1dd731a23" kind="function"><name>CantidadActividades</name></member>
+    <member refid="classintegrador_1_1_oferta_actividades_1a1c3f2d0d8a7a6df2dba4234789dca02b" kind="function"><name>GetNominaActividades</name></member>
+    <member refid="classintegrador_1_1_oferta_actividades_1a08b7cef82d141aae544c568bf56f5f80" kind="function"><name>BorrarActividad</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_persona" kind="class"><name>integrador::Persona</name>
+    <member refid="classintegrador_1_1_persona_1a2a60cb04bc0eca06122985fae5dceff7" kind="variable"><name>nombre</name></member>
+    <member refid="classintegrador_1_1_persona_1a11ec971a6c912a7bc71a856018160e8e" kind="variable"><name>apellido</name></member>
+    <member refid="classintegrador_1_1_persona_1a1b53adcf224eb622531a345b25e0b10b" kind="variable"><name>dni</name></member>
+    <member refid="classintegrador_1_1_persona_1a8d6779f6c32f6d9f82eccbd1ac103bf6" kind="variable"><name>edad</name></member>
+    <member refid="classintegrador_1_1_persona_1a9ad30628e4f7dcf16b3ed2c2ddeb3598" kind="function"><name>Persona</name></member>
+    <member refid="classintegrador_1_1_persona_1a57bbfb70f0807a1d4123da8dc3e967f5" kind="function"><name>getNombre</name></member>
+    <member refid="classintegrador_1_1_persona_1a06064428b3e20cea1c954b64bd5efed0" kind="function"><name>setNombre</name></member>
+    <member refid="classintegrador_1_1_persona_1ac7c03c3f02d8e87d157868e30b439239" kind="function"><name>getApellido</name></member>
+    <member refid="classintegrador_1_1_persona_1a635eb7ac1ba56716f0988931bdf59704" kind="function"><name>setApellido</name></member>
+    <member refid="classintegrador_1_1_persona_1a88e774f8d5cb3fb643b67cce3427dee3" kind="function"><name>getDni</name></member>
+    <member refid="classintegrador_1_1_persona_1aa1e45006fa8cee92ae7599dfb9da8d41" kind="function"><name>setDni</name></member>
+    <member refid="classintegrador_1_1_persona_1aa59e5e95b36f21f5fbec39455fd06618" kind="function"><name>getEdad</name></member>
+    <member refid="classintegrador_1_1_persona_1aba70d3f6d9252da9e1c2a3353e1b37a0" kind="function"><name>setEdad</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_prueba_humo" kind="class"><name>integrador::PruebaHumo</name>
+    <member refid="classintegrador_1_1_prueba_humo_1a53906697cbd66460d3a112bed4356217" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_socio" kind="class"><name>integrador::Socio</name>
+    <member refid="classintegrador_1_1_socio_1a6ba30ff2bbaac65e67388199dcc295e2" kind="variable"><name>persona</name></member>
+    <member refid="classintegrador_1_1_socio_1a179f2364e7c51e383b80d634e8bb1ef0" kind="variable"><name>idSocio</name></member>
+    <member refid="classintegrador_1_1_socio_1a9e7829daa97a14cc67c8cf823f8cb05c" kind="variable"><name>fechaIngreso</name></member>
+    <member refid="classintegrador_1_1_socio_1aa93107f6e037bbb3ce125a580075bfe6" kind="function"><name>Socio</name></member>
+    <member refid="classintegrador_1_1_socio_1aefd57689679f7b1f9b20a7d2eb77c8fd" kind="function"><name>Socio</name></member>
+    <member refid="classintegrador_1_1_socio_1a0394a1194a00508159da6b1503947324" kind="function"><name>getPersona</name></member>
+    <member refid="classintegrador_1_1_socio_1aa9e189024d442fb0a1c67a434c719ddb" kind="function"><name>setPersona</name></member>
+    <member refid="classintegrador_1_1_socio_1a5294833932f25881e3c600cc8ad49880" kind="function"><name>getIdSocio</name></member>
+    <member refid="classintegrador_1_1_socio_1ab8f0d56e3c5b7209be521f9c4e3dec38" kind="function"><name>setIdSocio</name></member>
+    <member refid="classintegrador_1_1_socio_1ac2706dc816819e2d88e68b62f9b088be" kind="function"><name>getFechaIngreso</name></member>
+    <member refid="classintegrador_1_1_socio_1a7cdd7f9fba3cc077d9684b9d88729e49" kind="function"><name>setFechaIngreso</name></member>
+    <member refid="classintegrador_1_1_socio_1a2d396ebf5db94e0ac029b768b408fae9" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classintegrador_1_1_ya_existe_socio_exception" kind="class"><name>integrador::YaExisteSocioException</name>
+  </compound>
+  <compound refid="namespaceintegrador" kind="namespace"><name>integrador</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="namespacetestng" kind="namespace"><name>testng</name>
+  </compound>
+  <compound refid="_actividad_8java" kind="file"><name>Actividad.java</name>
+  </compound>
+  <compound refid="_cupo_excedido_exception_8java" kind="file"><name>CupoExcedidoException.java</name>
+  </compound>
+  <compound refid="_edad_insuficiente_exception_8java" kind="file"><name>EdadInsuficienteException.java</name>
+  </compound>
+  <compound refid="_no_existe_socio_exception_8java" kind="file"><name>NoExisteSocioException.java</name>
+  </compound>
+  <compound refid="_nomina_socios_8java" kind="file"><name>NominaSocios.java</name>
+  </compound>
+  <compound refid="_oferta_actividades_8java" kind="file"><name>OfertaActividades.java</name>
+  </compound>
+  <compound refid="_persona_8java" kind="file"><name>Persona.java</name>
+  </compound>
+  <compound refid="_prueba_humo_8java" kind="file"><name>PruebaHumo.java</name>
+  </compound>
+  <compound refid="_socio_8java" kind="file"><name>Socio.java</name>
+  </compound>
+  <compound refid="_ya_existe_socio_exception_8java" kind="file"><name>YaExisteSocioException.java</name>
+  </compound>
+  <compound refid="_actividad_test_8java" kind="file"><name>ActividadTest.java</name>
+  </compound>
+  <compound refid="dir_a285ee3f948c71a9065557e561edd44d" kind="dir"><name>integrador</name>
+  </compound>
+  <compound refid="dir_159cb98a9ed4d64d550768b2c5566e4b" kind="dir"><name>integrador/src/main/java/integrador</name>
+  </compound>
+  <compound refid="dir_8f2106ce462a72f3c8f2336e4f5c410f" kind="dir"><name>integrador/src/main/java</name>
+  </compound>
+  <compound refid="dir_eb8c8e21c3a28fffa418613f1fa78f9b" kind="dir"><name>integrador/src/test/java</name>
+  </compound>
+  <compound refid="dir_f6fa4121e349223b303d54b98bfdf21d" kind="dir"><name>integrador/src/main</name>
+  </compound>
+  <compound refid="dir_333da6d9884d49fb197100b366ce628c" kind="dir"><name>integrador/src</name>
+  </compound>
+  <compound refid="dir_86110904765c44ae6556c2b3b9d2571f" kind="dir"><name>integrador/src/test</name>
+  </compound>
+  <compound refid="dir_82fe48fa01d4582724d469aad57ad71f" kind="dir"><name>integrador/src/test/java/testng</name>
+  </compound>
+</doxygenindex>
