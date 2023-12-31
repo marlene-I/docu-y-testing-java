@@ -1,7 +1,7 @@
 # Técnicas de Documentación y Validación: Proyecto Integrador. TUDAI
 
 Proyecto de aplicación de técnicas de documentación y validación para Java vistas en la cátedra.  
-Se trabajaron sobre distintos formas de testeo y documentación de componentes.  
+Se trabajaron sobre distintas formas de testeo y documentación de componentes.  
 Las herramientas utilizadas fueron: 
  - Para el testeo de unitario: **TestNG, JUnit**.
  - Para la documentación de código: **JavaDoc, Doxygen**.
