@@ -9,9 +9,9 @@ import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import org.springframework.stereotype.Component;
 
-import integrador.CupoExcedidoException;
-import integrador.EdadInsuficienteException;
-import integrador.YaExisteSocioException;
+import testing.CupoExcedidoException;
+import testing.EdadInsuficienteException;
+import testing.YaExisteSocioException;
 import swagger.model.Actividad;
 import swagger.model.Persona;
 import swagger.model.Socio;

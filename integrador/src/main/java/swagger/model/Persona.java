@@ -112,6 +112,10 @@ public class Persona   {
     this.edad = edad;
   }
 
+  public String getNombreCompleto(){
+    return this.getApellido() + ", " + this.getNombre();
+  }
+
 
   @Override
   public boolean equals(java.lang.Object o) {

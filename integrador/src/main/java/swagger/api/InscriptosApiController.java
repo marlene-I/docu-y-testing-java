@@ -21,6 +21,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CookieValue;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -38,6 +39,7 @@ import java.util.List;
 import java.util.Map;
 
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2023-12-29T01:15:12.905934647Z[GMT]")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class InscriptosApiController implements InscriptosApi {
 
@@ -53,9 +55,9 @@ public class InscriptosApiController implements InscriptosApi {
         this.request = request;
     }
 
-    public ResponseEntity<List<Socio>> inscriptosNombreActividadGet(@Parameter(in = ParameterIn.PATH, description = "Nombre de la actividad", required=true, schema=@Schema()) @PathVariable("nombreActividad") String nombreActividad
-) {
-       
+    public ResponseEntity<List<Socio>> inscriptosNombreActividadGet(
+            @Parameter(in = ParameterIn.PATH, description = "Nombre de la actividad", required = true, schema = @Schema()) @PathVariable("nombreActividad") String nombreActividad) {
+
         Actividad act = OfertaActividadesService.getActividadPorNombre(nombreActividad);
         if (act != null) {
             return ResponseEntity.ok(act.getInscriptos());

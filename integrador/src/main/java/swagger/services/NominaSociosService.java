@@ -2,10 +2,11 @@ package swagger.services;
 
 import java.util.ArrayList;
 
+import org.threeten.bp.LocalDate;
 
-import integrador.EdadInsuficienteException;
-import integrador.NoExisteSocioException;
-import integrador.YaExisteSocioException;
+import testing.EdadInsuficienteException;
+import testing.NoExisteSocioException;
+import testing.YaExisteSocioException;
 
 import swagger.model.Persona;
 import swagger.model.Socio;
@@ -38,6 +39,7 @@ static int proxSocio;
  * */
 public static void Asociar(Persona p)  throws YaExisteSocioException, EdadInsuficienteException {
 	Socio s = new Socio(p);
+	s.setFechaIngreso(LocalDate.now());
 	if(nomina==null) nomina= new ArrayList<>();
 	if(p.getEdad()<16) throw new EdadInsuficienteException();
 	if(!NominaSociosService.YaExisteEnNomina(p)) {

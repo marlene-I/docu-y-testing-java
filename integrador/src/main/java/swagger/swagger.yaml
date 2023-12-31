@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Manzanita JR API
-  description: API del para gestionar actividades y socios en el club Manzanita Jr
+  description: API para gestionar actividades y socios en el club Manzanita Jr
   version: 1.0.0
 
 paths:
@@ -44,8 +44,23 @@ paths:
                 type: array
                 items: 
                   $ref: '#/components/schemas/Actividad'
-        
-          
+                  
+  /actividades/crear:       
+    post:
+      summary: Crear una actividad nueva (no implementado)
+      requestBody:
+        description: Datos de actividad a crear
+        required: true
+        content:
+          application/json:
+            schema: 
+              $ref: '#/components/schemas/Actividad'
+      responses: 
+        '200':
+          description: Actividad creada con éxito
+        '400':
+          description: Se deben completar los datos de la actividad
+            
   /inscribir:
     post:
       summary: Inscribir un socio en una actividad
@@ -71,6 +86,36 @@ paths:
           description: Inscripción exitosa
         '406':
           description: Inscripción no aceptable
+          
+  /nomina/asociar:
+    post:
+      summary: Agregar persona a la nómina de socios
+      requestBody:
+        description: Datos de la persona a agregar a la nómina
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Persona'
+      responses:
+        '200':
+          description: Persona agregada a la nómina correctamente
+        '406':
+          description: Datos de la persona incorrectos o incompletos
+  
+  /nomina/list:
+    get:
+      summary: Obtener listado de socios (no implementado)
+      responses:
+        '200':
+          description: Listado de socios obtenido correctamente
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/Socio'
+          
 components:
   schemas:
     Actividad:
@@ -90,10 +135,12 @@ components:
         edadMinima:
           type: integer
           description: Edad mínima requerida para participar en la actividad
+          example: 25
         cupo:
           type: integer
           description: Cantidad máxima de inscritos permitidos en la actividad
-    
+          example: 10
+          
     Persona:
       type: object
       properties:
@@ -106,9 +153,11 @@ components:
         dni:
           type: string
           description: DNI (Documento Nacional de Identidad) de la persona.
+          example: 4030303
         edad:
           type: integer
           description: Edad de la persona
+          example: 20
 
     Socio:
       type: object
@@ -119,7 +168,11 @@ components:
         idSocio:
           type: integer
           description: Identificador único del socio
+          example: 12345
         fechaIngreso:
           type: string
           format: date
           description: Fecha de ingreso del socio
+
+
+  

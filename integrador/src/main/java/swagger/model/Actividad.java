@@ -3,8 +3,8 @@ package swagger.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import integrador.CupoExcedidoException;
-import integrador.EdadInsuficienteException;
+import testing.CupoExcedidoException;
+import testing.EdadInsuficienteException;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import swagger.model.Persona;

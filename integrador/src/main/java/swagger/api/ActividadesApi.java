@@ -14,27 +14,29 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.media.ArraySchema;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
-import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RequestPart;
-import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.bind.annotation.CookieValue;
+import io.swagger.v3.oas.annotations.parameters.RequestBody;
+
+import java.util.List;
 
 import javax.validation.Valid;
-import javax.validation.constraints.*;
-import java.util.List;
-import java.util.Map;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2023-12-29T13:24:22.602477450Z[GMT]")
 @Validated
 public interface ActividadesApi {
+
+    @Operation(summary = "Crear una actividad nueva", description = "", tags = {})
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Actividad creada con éxito"),
+
+            @ApiResponse(responseCode = "400", description = "Se deben completar los datos de la actividad") })
+    @RequestMapping(value = "/actividades/crear", consumes = { "application/json" }, method = RequestMethod.POST)
+    ResponseEntity<Void> actividadesCrearPost(
+            @Parameter(in = ParameterIn.DEFAULT, description = "Datos de actividad a crear", required = true, schema = @Schema()) @Valid @RequestBody Actividad body);
 
     @Operation(summary = "Obtener listado de actividades disponibles", description = "", tags = {})
     @ApiResponses(value = {

@@ -1,16 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestNGTest-860656d8-5517-475c-ba95-cba5baa06f3f"
-           tests="12"
+<testsuite name="TestNGTest-74dcd4e7-71d6-4ec2-8415-c41bdeb24072"
+           tests="27"
            failures="0"
            errors="0"
            skipped="0"
-           time="0.094">
+           time="0.269">
     <properties></properties>
 
 
 
             <testcase
-                name="testNoSuperarCupo"
+                name="testSetEncargado"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testInscripcionSocio"
+                time="0.000"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testInscripcionSocio"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.002"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.002"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.002"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testInscripcionSocio"
+                time="0.222"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testInscripcionSocio"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testInscripcionSocio"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.001"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.002"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
                 time="0.003"
                 classname="testng.ActividadTest">
             </testcase>
@@ -20,18 +100,18 @@
                 classname="testng.ActividadTest">
             </testcase>
             <testcase
-                name="testInscripcionSocio"
-                time="0.000"
+                name="testSetEncargado"
+                time="0.002"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testSetEncargado"
+                time="0.002"
                 classname="testng.ActividadTest">
             </testcase>
             <testcase
                 name="testInscripcionSocio"
-                time="0.000"
-                classname="testng.ActividadTest">
-            </testcase>
-            <testcase
-                name="testInscripcionSocio"
-                time="0.001"
+                time="0.012"
                 classname="testng.ActividadTest">
             </testcase>
             <testcase
@@ -40,17 +120,7 @@
                 classname="testng.ActividadTest">
             </testcase>
             <testcase
-                name="testInscripcionSocio"
-                time="0.000"
-                classname="testng.ActividadTest">
-            </testcase>
-            <testcase
-                name="testInscripcionSocio"
-                time="0.085"
-                classname="testng.ActividadTest">
-            </testcase>
-            <testcase
-                name="testInscripcionSocio"
+                name="testSetEncargado"
                 time="0.001"
                 classname="testng.ActividadTest">
             </testcase>
@@ -61,12 +131,17 @@
             </testcase>
             <testcase
                 name="testInscripcionSocio"
-                time="0.000"
+                time="0.001"
                 classname="testng.ActividadTest">
             </testcase>
             <testcase
                 name="testInscripcionSocio"
-                time="0.001"
+                time="0.002"
+                classname="testng.ActividadTest">
+            </testcase>
+            <testcase
+                name="testNoSuperarCupo"
+                time="0.003"
                 classname="testng.ActividadTest">
             </testcase>
 </testsuite>

@@ -1,5 +1,6 @@
 package swagger.model;
 
+import java.util.Date;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
@@ -125,7 +126,7 @@ public class Socio   {
   }
 
   public String getNombreCompleto(){
-    return this.getPersona().getApellido() + ", " + this.getPersona().getNombre();
+    return this.getPersona().getNombreCompleto();
   }
 
   /**

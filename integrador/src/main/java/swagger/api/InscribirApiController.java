@@ -4,29 +4,21 @@ import swagger.model.Actividad;
 import swagger.model.InscribirBody;
 import swagger.model.Socio;
 import swagger.services.OfertaActividadesService;
+import testing.CupoExcedidoException;
+import testing.EdadInsuficienteException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import swagger.api.NotAcceptableException;
-
-import integrador.CupoExcedidoException;
-import integrador.EdadInsuficienteException;
-
-import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import io.swagger.v3.oas.annotations.responses.ApiResponse;
-import io.swagger.v3.oas.annotations.media.ArraySchema;
-import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CookieValue;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -44,6 +36,7 @@ import java.util.List;
 import java.util.Map;
 
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2023-12-29T01:15:12.905934647Z[GMT]")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class InscribirApiController implements InscribirApi {
 

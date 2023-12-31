@@ -42,7 +42,7 @@ public class InscripcionTest {
 
     @Test
     public void loadPage(){
-        driver.get("http://localhost:5500/frontend/asociar");
+        driver.get("http://localhost:5501/frontend/asociar");
         Assert.assertEquals(driver.getTitle(), "Manzanita JR");
     }
     
@@ -52,7 +52,7 @@ public class InscripcionTest {
 
         inscPage.enviarForm();
 
-       
+        Assert.assertEquals(inscPage.getResultText(), "Socio agregado");
     }
 
     @AfterClass
