@@ -1,0 +1,398 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>39/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 31 00:27:15 ART 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (130 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@3c9754d8</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@f5958c9</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@3cd3e762</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@489115ef</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Sánchez, Ana</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@385c9627</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: García, Miguel</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@79079097</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@477b4cdf</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@6f03482</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@31190526</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@3eb738bb</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@62ddbd7e</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.bajaSocio()'><b>bajaSocio</b><br>Test class: mutation.NominaSocioTest</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@ba2f4ec</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@302552ec</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@5aa9e4eb</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@4b2bac3f</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Gómez, María</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testNoSuperarCupo()'><b>testNoSuperarCupo</b><br>Test class: mutation.ActividadTest</td>
+<td><div><pre>mutation.CupoExcedidoException
+	at mutation.Actividad.inscribirSocio(Actividad.java:128)
+	at mutation.ActividadTest.testNoSuperarCupo(ActividadTest.java:148)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1069716895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1069716895'><pre>mutation.CupoExcedidoException
+	at mutation.Actividad.inscribirSocio(Actividad.java:128)
+	at mutation.ActividadTest.testNoSuperarCupo(ActividadTest.java:148)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Fernández, Juan</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@7eac9008</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Pérez, Pedro</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@682b2fa</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@179ece50</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@40005471</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Rodríguez, Elena</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@6743e411</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Díaz, Laura</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@367ffa75</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@1e800aaa</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Torres, Isabel</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@bcec361</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testSetEncargado()'><b>testSetEncargado</b><br>Test class: mutation.ActividadTest<br>Parameters: mutation.Persona@7dcf94f8</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.bajaThrowsNoExisteSocio()'><b>bajaThrowsNoExisteSocio</b><br>Test class: mutation.NominaSocioTest</td>
+<td><div><pre>mutation.NoExisteSocioException
+	at mutation.NominaSocios.Baja(NominaSocios.java:79)
+	at mutation.NominaSocioTest.bajaThrowsNoExisteSocio(NominaSocioTest.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace484589713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace484589713'><pre>mutation.NoExisteSocioException
+	at mutation.NominaSocios.Baja(NominaSocios.java:79)
+	at mutation.NominaSocioTest.bajaThrowsNoExisteSocio(NominaSocioTest.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: Martínez, Carlos</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testNoInscribirSocioDeEdadInsuficiente()'><b>testNoInscribirSocioDeEdadInsuficiente</b><br>Test class: mutation.ActividadTest</td>
+<td><div><pre>mutation.EdadInsuficienteException
+	at mutation.Actividad.inscribirSocio(Actividad.java:130)
+	at mutation.ActividadTest.testNoInscribirSocioDeEdadInsuficiente(ActividadTest.java:135)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace275266973", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace275266973'><pre>mutation.EdadInsuficienteException
+	at mutation.Actividad.inscribirSocio(Actividad.java:130)
+	at mutation.ActividadTest.testNoInscribirSocioDeEdadInsuficiente(ActividadTest.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.ActividadTest.testInscripcionSocio()'><b>testInscripcionSocio</b><br>Test class: mutation.ActividadTest<br>Parameters: López, Francisco</td>
+<td></td>
+<td>0</td>
+<td>mutation.ActividadTest@72a7c7e0</td></tr>
+<tr>
+<td title='mutation.NominaSocioTest.asociarPersona()'><b>asociarPersona</b><br>Test class: mutation.NominaSocioTest<br>Parameters: mutation.Persona@198b6731</td>
+<td></td>
+<td>0</td>
+<td>mutation.NominaSocioTest@e056f20</td></tr>
+</table><p>
+</body>
+</html>

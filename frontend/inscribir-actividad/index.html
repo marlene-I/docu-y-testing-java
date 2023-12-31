@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../toast.css">
+    <title>Manzanita JR</title>
+</head>
+
+<body>
+    <div class="container"> 
+        <div style="display: flex; flex-direction:  column; align-items: center; margin-top:10%;">
+            <img src="../../Manzanita.png" alt="Logo del club Manzanita" class="logo">
+            <a href="../../frontend/asociar/">Asociar persona</a>
+
+        </div>
+
+        <h4>Ingreso de socios</h4>
+        <form name="socio-register-form" id="socio-register-form" method="post">
+            <div class="input-container">
+                <label for="nombre">nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+    
+            <div class="input-container">
+                <label for="apellido">apellido</label>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+    
+            <div class="input-container">
+                <label for="dni">DNI</label>
+                <input type="text" name="dni" id="dni">
+            </div>
+    
+            <div class="input-container">
+                <label for="edad">edad</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+
+            <div class="input-container">
+                <label for="actividad">actividad</label>
+
+                <select name="actividad" id="actividad"></select>
+            </div>
+            <span class="quota" >Cupo disponible: </span><span id="quota" class="quota"></span>
+            <button type="button" class="register-button" id="register-button">Registrar socio</button>
+        </form>
+
+    </div>
+
+
+</body>
+<script src="index.js" type="module"></script>
+
+</html>

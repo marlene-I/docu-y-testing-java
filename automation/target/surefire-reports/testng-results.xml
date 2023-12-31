@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-30T19:43:14 ART" name="Surefire suite" finished-at="2023-12-30T19:43:22 ART" duration-ms="8407">
+    <groups>
+    </groups>
+    <test started-at="2023-12-30T19:43:14 ART" name="Surefire test" finished-at="2023-12-30T19:43:22 ART" duration-ms="8407">
+      <class name="InscripcionTest">
+        <test-method is-config="true" signature="initPageFactory()[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:14 ART" name="initPageFactory" finished-at="2023-12-30T19:43:18 ART" duration-ms="3637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageFactory -->
+        <test-method signature="loadPage()[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:18 ART" name="loadPage" finished-at="2023-12-30T19:43:18 ART" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:18 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:19 ART" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@17814b1c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:19 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:19 ART" duration-ms="264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@4dafba3e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:19 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:19 ART" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@7772054c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:19 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:19 ART" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@67440de6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:19 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:20 ART" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@1cb37ee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:20 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:20 ART" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@2b98b3bb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:20 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:20 ART" duration-ms="247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@1640c151]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:20 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:20 ART" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@77e7246b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:20 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:21 ART" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@151ef57f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:21 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:21 ART" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@9e2ad91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:21 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:21 ART" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@8a2a6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:21 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:21 ART" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@158f4cfe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:21 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:22 ART" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@31a3f4de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:22 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:22 ART" duration-ms="238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@b606cb6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="register(automation.Persona)[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:22 ART" name="register" data-provider="GeneradorPersonas" finished-at="2023-12-30T19:43:22 ART" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation.Persona@68d7a2df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:InscripcionTest@56528192]" started-at="2023-12-30T19:43:22 ART" name="closeDriver" finished-at="2023-12-30T19:43:22 ART" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- InscripcionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

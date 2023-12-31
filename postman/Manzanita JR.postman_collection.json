@@ -1,0 +1,504 @@
+{
+	"info": {
+		"_postman_id": "9b733ab4-c32b-40e1-9941-f80023fdac26",
+		"name": "Manzanita JR",
+		"description": "Colleccion de solicitudes a la REST API de gestión de actividades y socios en el club Manzanita Jr.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30433986"
+	},
+	"item": [
+		{
+			"name": "Obtener inscriptos a Yoga",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Chequear respuesta exitosa', function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"})\r",
+							"\r",
+							"pm.test(\"La respuesta es un arreglo de socios con propiedades válidas\", function () {\r",
+							"    const schemaSocio = pm.collectionVariables.get('SocioSchema');\r",
+							"\r",
+							"    const schema = {\r",
+							"        type: \"array\",\r",
+							"        items: schemaSocio\r",
+							"    }\r",
+							"    \r",
+							"    const response = pm.response.json();\r",
+							"    pm.expect(tv4.validate(response, schema)).to.be.true;\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/inscriptos/Yoga",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"inscriptos",
+						"Yoga"
+					]
+				},
+				"description": "Obtener listado de socios inscriptos en Yoga. Se utiliza para testear que el código y respuesta sean correctos."
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener inscriptos a ActividadInexistente",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Chequear error code 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Chequear mensaje de error correcto\", function () {\r",
+							"    const json = pm.response.json();\r",
+							"    pm.expect(json.mensaje).to.be.equals(\"La actividad ActividadInexistente no existe\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/inscriptos/ActividadInexistente",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"inscriptos",
+						"ActividadInexistente"
+					]
+				},
+				"description": "Obtener listado de socios inscriptos en actividad que no está almacenada. Se utiliza para testear que el código y mensaje de respuesta sean correctos."
+			},
+			"response": []
+		},
+		{
+			"name": "Inscribir socio - Varios socios en un request",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							"// Generates a random DNI\r",
+							"pm.collectionVariables.set(\"randomDNI\", _.random(10000000, 99999999));\r",
+							"\r",
+							"pm.collectionVariables.set(\"randomAge\", _.random(18, 100));\r",
+							"\r",
+							"let inscripciones = pm.collectionVariables.get(\"inscripciones\");\r",
+							"\r",
+							"if(!inscripciones || inscripciones.length == 0){\r",
+							"    inscripciones = [\r",
+							"        { \"inscripcion\": pm.collectionVariables.get(\"InscripcionCorrecta\"), \"correcta\": true }, \r",
+							"        { \"inscripcion\": pm.collectionVariables.get(\"InscripcionSinNombrePersona\"), \"correcta\": false }, \r",
+							"        { \"inscripcion\": pm.collectionVariables.get(\"InscripcionSinApellidoPersona\"), \"correcta\": false }, \r",
+							"        { \"inscripcion\": pm.collectionVariables.get(\"InscripcionSinSocio\"), \"correcta\": false },\r",
+							"        {\"inscripcion\": pm.collectionVariables.get(\"InscripcionSinActividad\"), \"correcta\": false },\r",
+							"    ];\r",
+							"}\r",
+							"\r",
+							"\r",
+							"let inscripcionActual = inscripciones.shift();\r",
+							"\r",
+							"\r",
+							"pm.collectionVariables.set(\"inscripcionActual\", inscripcionActual.inscripcion);\r",
+							"pm.collectionVariables.set(\"inscripcionActualCorrecta\", inscripcionActual.correcta);\r",
+							"pm.collectionVariables.set(\"inscripciones\", inscripciones);\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"const inscripciones = pm.collectionVariables.get(\"inscripciones\");\r",
+							"if (inscripciones && inscripciones.length > 0){\r",
+							"    const idRequest = \"7eac2dab-8f95-4df0-bade-6f279eb30a9b\";\r",
+							"    postman.setNextRequest(idRequest);\r",
+							"} else {\r",
+							"    postman.setNextRequest(null);\r",
+							"}\r",
+							"\r",
+							"const inscripcionActual = pm.collectionVariables.get(\"inscripcionActual\");\r",
+							"const inscripcionActualEsCorrecta = pm.collectionVariables.get(\"inscripcionActualCorrecta\");\r",
+							"\r",
+							"if(inscripcionActualEsCorrecta){\r",
+							"    pm.test('Chequear respuesta exitosa', function () {\r",
+							"        pm.response.to.have.status(200);\r",
+							"    })\r",
+							"} else {\r",
+							"    pm.test('Chequear código no aceptable', function () {\r",
+							"        pm.response.to.have.status(406);\r",
+							"    })\r",
+							"}\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{{inscripcionActual}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/inscribir",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"inscribir"
+					]
+				},
+				"description": "Itera sobre un arreglo de socios y actividades (inscripción) y los inscribe.\n\nEl test contempla tanto inserción exitosa como no exitosa.\n\n**Esta solicitud no forma parte de la entrega del trabajo práctico, pero voy a dejarla para tenerla de referencia.**\n\nUno de los casos falla por un error de parseo."
+			},
+			"response": []
+		},
+		{
+			"name": "Inscribir socio",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							"// Generates a random DNI\r",
+							"pm.collectionVariables.set(\"randomDNI\", _.random(10000000, 99999999));\r",
+							"\r",
+							"pm.collectionVariables.set(\"randomAge\", _.random(18, 100));\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Chequear respuesta exitosa', function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"})\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"socio\": {\r\n          \"persona\": {\r\n                \"nombre\": \"{{$randomFirstName}}\",\r\n                \"apellido\": \"{{$randomLastName}}\",\r\n                \"dni\": \"{{randomDNI}}\",\r\n                \"edad\": {{randomAge}}\r\n          }\r\n        \r\n      },\r\n      \"actividad\": {\r\n            \"nombre\": \"Yoga\"\r\n      }\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/inscribir",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"inscribir"
+					]
+				},
+				"description": "Inscribe un socio con todos los campos completos.  \nTestea que el código de respuesta sea 200."
+			},
+			"response": []
+		},
+		{
+			"name": "Inscribir socio sin datos de persona",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							"// Generates a random DNI\r",
+							"pm.collectionVariables.set(\"randomDNI\", _.random(10000000, 99999999));\r",
+							"\r",
+							"pm.collectionVariables.set(\"randomAge\", _.random(18, 100));\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							" pm.test('Chequear código no aceptable', function () {\r",
+							"        pm.response.to.have.status(406);\r",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n      \"socio\": {\r\n          \"persona\": {\r\n                \"apellido\": \"{{$randomLastName}}\",\r\n                \"dni\": \"{{randomDNI}}\",\r\n                \"edad\": {{randomAge}}\r\n          }\r\n        \r\n      },\r\n      \"actividad\": {\r\n            \"nombre\": \"Yoga\"\r\n      }\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/inscribir",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"inscribir"
+					]
+				},
+				"description": "Intenta inscribir un socio sin campo nombre de la persona.  \nTestea que el código de respuesta sea 406."
+			},
+			"response": []
+		},
+		{
+			"name": "Inscribir socio sin datos de  Actividad",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							"// Generates a random DNI\r",
+							"pm.collectionVariables.set(\"randomDNI\", _.random(10000000, 99999999));\r",
+							"\r",
+							"pm.collectionVariables.set(\"randomAge\", _.random(18, 100));\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							" pm.test('Chequear código no aceptable', function () {\r",
+							"        pm.response.to.have.status(406);\r",
+							"    })"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n      \"socio\": {\r\n          \"persona\": {\r\n                \"nombre\": \"{{$randomFirstName}}\",\r\n                \"apellido\": \"{{$randomLastName}}\",\r\n                \"dni\": \"{{randomDNI}}\",\r\n                \"edad\": {{randomAge}}\r\n          }\r\n      }\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/inscribir",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"inscribir"
+					]
+				},
+				"description": "Intenta inscribir un socio sin información de actividad.  \nTestea que el código de respuesta sea 406."
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener actividades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/actividades/list",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"actividades",
+						"list"
+					]
+				},
+				"description": "Lista las actividades disponibles en el club."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "SocioSchema",
+			"value": "{\n        \"type\": \"object\",\n        \"properties\": {\n            \"nombreCompleto\": { \"type\": \"string\" },\n            \"persona\": { \"type\": \"object\" },\n            \"idSocio\": { \"type\": \"number\" },\n            \"fechaIngreso\": { \"type\": \"string\" }\n        },\n        \"required\": [\"nombreCompleto\", \"persona\", \"idSocio\", \"fechaIngreso\"]\n    }",
+			"type": "string"
+		},
+		{
+			"key": "randomDNI",
+			"value": "74046340"
+		},
+		{
+			"key": "randomAge",
+			"value": "35"
+		},
+		{
+			"key": "baseUrl",
+			"value": "localhost:8080"
+		},
+		{
+			"key": "InscripcionCorrecta",
+			"value": "  {\n      \"socio\": {\n          \"persona\": {\n                \"nombre\": \"{{$randomFirstName}}\",\n                \"apellido\": \"{{$randomLastName}}\",\n                \"dni\": \"{{randomDNI}}\",\n                \"edad\": {{randomAge}}\n          }\n        \n      },\n      \"actividad\": {\n            \"nombre\": \"Yoga\"\n      }\n }",
+			"type": "string"
+		},
+		{
+			"key": "InscripcionSinNombrePersona",
+			"value": "  {\n      \"socio\": {\n          \"persona\": {\n                \"apellido\": \"{{$randomLastName}}\",\n                \"dni\": \"{{randomDNI}}\",\n                \"edad\": {{randomAge}}\n          }\n        \n      },\n      \"actividad\": {\n            \"nombre\": \"Yoga\"\n      }\n }",
+			"type": "string"
+		},
+		{
+			"key": "InscripcionSinApellidoPersona",
+			"value": "  {\n      \"socio\": {\n          \"persona\": {\n                \"nombre\": \"{{$randomFirstName}}\",\n                \"dni\": \"{{randomDNI}}\",\n                \"edad\": {{randomAge}}\n          }\n        \n      },\n      \"actividad\": {\n            \"nombre\": \"Yoga\"\n      }\n }",
+			"type": "string"
+		},
+		{
+			"key": "InscripcionSinSocio",
+			"value": "{\n      \n      \"actividad\": {\n            \"nombre\": \"Yoga\"\n      }\n }",
+			"type": "string"
+		},
+		{
+			"key": "InscripcionSinActividad",
+			"value": "{\n      \"socio\": {\n          \"persona\": {\n                \"nombre\": \"{{$randomFirstName}}\",\n                \"apellido\": \"{{$randomLastName}}\",\n                \"dni\": \"{{randomDNI}}\",\n                \"edad\": 50\n          }\n      }\n }",
+			"type": "string"
+		},
+		{
+			"key": "inscripciones",
+			"value": "[]",
+			"type": "string"
+		},
+		{
+			"key": "inscripcionActual",
+			"value": "{\n      \"socio\": {\n          \"persona\": {\n                \"nombre\": \"{{$randomFirstName}}\",\n                \"apellido\": \"{{$randomLastName}}\",\n                \"dni\": \"{{randomDNI}}\",\n                \"edad\": {{randomAge}}\n          }\n        \n      },\n      \"actividad\": {\n            \"nombre\": \"Yoga\"\n      }\n }",
+			"type": "string"
+		},
+		{
+			"key": "inscripcionActualCorrecta",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

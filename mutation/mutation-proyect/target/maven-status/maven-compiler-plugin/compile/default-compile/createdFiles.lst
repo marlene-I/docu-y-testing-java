@@ -1,0 +1,10 @@
+mutation\Actividad.class
+mutation\CupoExcedidoException.class
+mutation\NoExisteSocioException.class
+mutation\NominaSocios.class
+mutation\Socio.class
+mutation\Persona.class
+mutation\EdadInsuficienteException.class
+mutation\OfertaActividades.class
+mutation\PruebaHumo.class
+mutation\YaExisteSocioException.class
