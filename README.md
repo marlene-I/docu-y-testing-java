@@ -74,7 +74,7 @@ Luego se generaron tests para evaluar las etapas de carga del formulario:
 Para la carga de datos se utilizó un @DataProvider de TestNG que se encarga de leer los datos del archivo `src/test/data/personas.csv` y proveer al test un arreglo de personas.  
 Se ha configurado la prioridad de cada test para asegurar el correcto orden de ejecución, dado que el registro del socio es un proceso secuencial.
 
-#### Para replicar de la prueba
+#### Para replicar la prueba
 Para ejecutar el testeo de automatización con éxito es **importante** <span style='color: #afafff'>*inicializar tanto el frontend como el backend*</span> y <span style='color: #afafff'>*realizar las configuración de direcciones de ambos*</span>:
  - En el frontend: 
     - Configurar la URL y puerto en cual se está sirviendo el backend en el archivo `frontend/asociar/index.js`.
